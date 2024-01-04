@@ -19,19 +19,58 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'thor_rig_v017:neck_02' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'thor_rig_v017:upperArm_l'
+      has scale animation that will be discarded.\n\t'thor_rig_v017:lowerArm_l' has
+      scale animation that will be discarded.\n\t'thor_rig_v017:hand_l' has translation
+      animation that will be discarded.\n\t'thor_rig_v017:hand_l' has scale animation
+      that will be discarded.\n\t'thor_rig_v017:lowerArm_r' has scale animation that
+      will be discarded.\n\t'thor_rig_v017:hand_r' has scale animation that will
+      be discarded.\n\t'thor_rig_v017:calf_l' has translation animation that will
+      be discarded.\n\t'thor_rig_v017:calf_l' has scale animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -81,8 +120,3628 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: thor_rig_v017:pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:thigh_l
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:thigh_r
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:calf_l
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:calf_r
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:foot_l
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:foot_r
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:spine_01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:spine_02
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:neck_01
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:clavicle_l
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:clavicle_r
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:upperArm_l
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:upperArm_r
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:lowerArm_l
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:lowerArm_r
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:hand_l
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:hand_r
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:ball_l
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:ball_r
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:eye_l
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:eye_r
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:thumb_carpal_l
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:thumb_finger_01_l
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:thumb_finger_02_l
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:index_carpal_l
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:index_finger_01_l
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:index_finger_02_l
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:middle_carpal_l
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:middle_finger_01_l
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:middle_finger_02_l
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:ring_carpal_l
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:ring_finger_01_l
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:ring_finger_02_l
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:pinky_carpal_l
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:pinky_finger_01_l
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:pinky_finger_02_l
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:thumb_carpal_r
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:thumb_finger_01_r
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:thumb_finger_02_r
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:index_carpal_r
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:index_finger_01_r
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:index_finger_02_r
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:middle_carpal_r
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:middle_finger_01_r
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:middle_finger_02_r
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:ring_carpal_r
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:ring_finger_01_r
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:ring_finger_02_r
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:pinky_carpal_r
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:pinky_finger_01_r
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:pinky_finger_02_r
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thor_rig_v017:spine_03
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Thor_LowQuickAttack(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:rig_grp
+      parentName: Thor_LowQuickAttack(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:rig_extra
+      parentName: thor_rig_v017:rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:rig_extra_2
+      parentName: thor_rig_v017:rig_extra
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:body_grp
+      parentName: thor_rig_v017:rig_extra_2
+      position: {x: -0, y: -0.071824454, z: -8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:chest_grp
+      parentName: thor_rig_v017:body_grp
+      position: {x: -0, y: 0.010571191, z: -0.1318682}
+      rotation: {x: 0.053185247, y: -0, z: -0, w: 0.9985847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:head_grp
+      parentName: thor_rig_v017:chest_grp
+      position: {x: -0, y: 0.010310918, z: 0.17658685}
+      rotation: {x: -0.053185247, y: 0, z: -0, w: 0.9985847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:face_grp
+      parentName: thor_rig_v017:head_grp
+      position: {x: -0, y: 2.842171e-16, z: 2.2204459e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:cmpts1
+      parentName: thor_rig_v017:face_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:control_asset
+      parentName: thor_rig_v017:cmpts1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:control_output
+      parentName: thor_rig_v017:control_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_cheekLift_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.041047085, y: 1.7105374, z: 0.05078873}
+      rotation: {x: 0.23518421, y: -0.45040178, z: -0.016474446, w: 0.861136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_ear_root_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.0592421, y: 1.7052653, z: -0.009083558}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_socket_1_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.019527154, y: 1.7157459, z: 0.064532176}
+      rotation: {x: -0.33264282, y: -0.17614667, z: 0.09796439, w: 0.92126226}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_socket_1_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.018586166, y: 1.7323861, z: 0.064868145}
+      rotation: {x: 0.20403966, y: -0.13668701, z: -0.18257889, w: 0.95202386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_cheekLift_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.041047085, y: 1.7105374, z: 0.05078873}
+      rotation: {x: 0.861136, y: 0.016474461, z: -0.45040178, w: -0.23518418}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_ear_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.0592421, y: 1.7052653, z: -0.009083557}
+      rotation: {x: 1, y: -1.2246469e-16, z: -7.498799e-33, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_ear_root_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.0592421, y: 1.7052653, z: -0.009083558}
+      rotation: {x: 1, y: -6.123234e-17, z: -3.7493994e-33, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_earlobe_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.065278105, y: 1.6831917, z: -0.005224469}
+      rotation: {x: 0.8626434, y: -0.01084397, z: -0.5052081, w: -0.022215262}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_inner_socket_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.011562175, y: 1.7229441, z: 0.06550199}
+      rotation: {x: 0.9225263, y: 0.08541137, z: -0.35352638, w: 0.12910947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_socket_1_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.018586166, y: 1.7323861, z: 0.064868145}
+      rotation: {x: 0.9520239, y: 0.1825789, z: -0.13668701, w: -0.20403965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_socket_3_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.040470712, y: 1.7339854, z: 0.055992026}
+      rotation: {x: 0.9353608, y: -0.18536198, z: -0.29235393, w: -0.07259781}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_inner_cheek_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.019505568, y: 1.7102413, z: 0.069371276}
+      rotation: {x: 0.9331772, y: -0.1923549, z: -0.1740258, w: 0.24878702}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:eyebrows_center_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -6.661338e-17, y: 1.7390561, z: 0.072302185}
+      rotation: {x: 0.016214818, y: -0, z: -0, w: 0.9998686}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:nose_bridge_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0, y: 1.7168331, z: 0.07913791}
+      rotation: {x: -0.290217, y: 0, z: -0, w: 0.95696086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_ear_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.0592421, y: 1.7052653, z: -0.009083557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_earlobe_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.065278105, y: 1.6831917, z: -0.005224469}
+      rotation: {x: 0.022215249, y: -0.5052081, z: 0.010843962, w: 0.8626434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_inner_socket_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.011562175, y: 1.7229441, z: 0.06550199}
+      rotation: {x: -0.12910946, y: -0.35352638, z: -0.08541136, w: 0.9225263}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_socket_2_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.033673953, y: 1.7142541, z: 0.059861492}
+      rotation: {x: -0.27108985, y: -0.23143166, z: -0.15221453, w: 0.92183536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_socket_3_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.04309265, y: 1.7195042, z: 0.05327549}
+      rotation: {x: -0.18992002, y: -0.27821866, z: -0.3208137, w: 0.88521373}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_outer_socket_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.0481462, y: 1.7266634, z: 0.045214895}
+      rotation: {x: -0.000056318648, y: -0.4927851, z: 0.000013422756, w: 0.8701511}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_socket_2_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.03057419, y: 1.7360115, z: 0.06344849}
+      rotation: {x: 0.20047827, y: -0.13540646, z: 0.023497736, w: 0.97001106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_socket_3_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.040470712, y: 1.7339854, z: 0.055992026}
+      rotation: {x: 0.0725978, y: -0.2923539, z: 0.18536198, w: 0.9353607}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_inner_cheek_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.019505568, y: 1.7102413, z: 0.069371276}
+      rotation: {x: -0.24878709, y: -0.17402583, z: 0.19235487, w: 0.9331772}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_socket_1_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.019527154, y: 1.7157459, z: 0.064532176}
+      rotation: {x: 0.92126226, y: -0.0979644, z: -0.17614666, w: 0.3326427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_socket_2_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.033673953, y: 1.7142541, z: 0.059861492}
+      rotation: {x: 0.92183536, y: 0.15221454, z: -0.23143166, w: 0.27108988}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_socket_3_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.04309265, y: 1.7195042, z: 0.05327549}
+      rotation: {x: 0.88521373, y: 0.3208137, z: -0.2782187, w: 0.18992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_outer_socket_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.0481462, y: 1.7266634, z: 0.045214895}
+      rotation: {x: 0.8701511, y: -0.0000134314, z: -0.4927851, w: 0.000056303266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_socket_2_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.032525994, y: 1.7337602, z: 0.06371351}
+      rotation: {x: 0.97001106, y: -0.02349774, z: -0.13540646, w: -0.2004783}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:head_upper_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0, y: 1.7019331, z: -0.008503387}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eyebrow_main_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.034412272, y: 1.7425549, z: 0.06405043}
+      rotation: {x: 0.038733598, y: -0.3364839, z: 0.040960047, w: 0.94000036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eyebrow_main_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.034412272, y: 1.7425549, z: 0.06405043}
+      rotation: {x: 0.03125957, y: -0.15185857, z: -0.007904887, w: 0.9878762}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:tongue_1_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0, y: 1.6601609, z: 0.03310343}
+      rotation: {x: -0.14951813, y: 0, z: -0, w: 0.988759}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:tongue_2_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0, y: 1.6633407, z: 0.04357936}
+      rotation: {x: 0.040749826, y: -0, z: -0, w: 0.9991694}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:tongue_3_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0, y: 1.66383, z: 0.056483835}
+      rotation: {x: 0.08156498, y: -0, z: -0, w: 0.99666804}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:tongue_4_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0, y: 1.6634288, z: 0.066614166}
+      rotation: {x: 0.08156498, y: -0, z: -0, w: 0.99666804}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:chin_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0, y: 1.6246722, z: 0.06558267}
+      rotation: {x: 0.6112409, y: -0, z: -0, w: 0.7914446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:head_lower_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0, y: 1.6842551, z: -0.008503387}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:nose_tip_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0, y: 1.6976985, z: 0.08794585}
+      rotation: {x: -0.07451588, y: 0, z: -0, w: 0.99721986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_nostril_edge_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.016201658, y: 1.6969568, z: 0.07272659}
+      rotation: {x: -0.000090881775, y: -0.15037757, z: 0.1394583, w: 0.9787431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_nostril_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.0077937045, y: 1.6981535, z: 0.08010127}
+      rotation: {x: -0.34394258, y: -0.12437258, z: -0.017299416, w: 0.93055665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_nostril_edge_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.016201658, y: 1.6969568, z: 0.07272659}
+      rotation: {x: -0.00009091058, y: 0.000006405482, z: 0.0000069114844, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_nostril_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.0077937045, y: 1.6981535, z: 0.08010127}
+      rotation: {x: -0.34394258, y: -0.0030820142, z: 0.02215787, w: 0.93872416}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:columella_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0, y: 1.6902716, z: 0.08317084}
+      rotation: {x: -0.22213452, y: 0.0009547998, z: -0.0024043948, w: 0.9750126}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:nose_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0, y: 1.7004118, z: 0.0711214}
+      rotation: {x: -0.21089342, y: 0, z: -0, w: 0.9775091}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_cheek_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: -0.03253516, y: 1.6755775, z: 0.035649028}
+      rotation: {x: -0.270477, y: 0.88506997, z: 0.109706916, w: -0.36257097}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_cheek_bind
+      parentName: thor_rig_v017:control_output
+      position: {x: 0.03253516, y: 1.6755775, z: 0.035649028}
+      rotation: {x: 0.269253, y: 0.00387416, z: -0.1784352, w: 0.94638723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_rig_grp
+      parentName: thor_rig_v017:face_grp
+      position: {x: -0, y: 2.842171e-16, z: 0}
+      rotation: {x: 3.8218127e-18, y: -1.6653345e-16, z: 5.252868e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_output
+      parentName: thor_rig_v017:L_eye_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_eye_bind
+      parentName: thor_rig_v017:L_eye_output
+      position: {x: -0.02481654, y: 1.7264127, z: 0.046130043}
+      rotation: {x: -0.00005762572, y: -0.13985813, z: -0.000008139423, w: 0.99017155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_eyelid_bind
+      parentName: thor_rig_v017:L_eye_eye_bind
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_eyelid_ori_0_bind
+      parentName: thor_rig_v017:L_eye_upper_eyelid_bind
+      position: {x: 0.011900137, y: -0.002209413, z: 0.010783576}
+      rotation: {x: -0.12367501, y: 0.38999185, z: -0.42996788, w: 0.804822}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_eyelid_ori_1_bind
+      parentName: thor_rig_v017:L_eye_upper_eyelid_bind
+      position: {x: 0.008975092, y: 0.0013042147, z: 0.013436036}
+      rotation: {x: -0.10504566, y: 0.273023, z: -0.21146919, w: 0.9325796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_eyelid_ori_2_bind
+      parentName: thor_rig_v017:L_eye_upper_eyelid_bind
+      position: {x: 0.0049620476, y: 0.0025920093, z: 0.015213149}
+      rotation: {x: -0.08820811, y: 0.15159766, z: -0.04486913, w: 0.9834756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_eyelid_ori_3_bind
+      parentName: thor_rig_v017:L_eye_upper_eyelid_bind
+      position: {x: 0.00041190555, y: 0.0027748172, z: 0.015965933}
+      rotation: {x: -0.08589745, y: 0.0128486175, z: 0.0011078019, w: 0.9962205}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_eyelid_ori_4_bind
+      parentName: thor_rig_v017:L_eye_upper_eyelid_bind
+      position: {x: -0.004328567, y: 0.0027274957, z: 0.015381956}
+      rotation: {x: -0.08551094, y: -0.13506906, z: 0.0020995906, w: 0.9871372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_eyelid_ori_5_bind
+      parentName: thor_rig_v017:L_eye_upper_eyelid_bind
+      position: {x: -0.009146577, y: 0.0023956015, z: 0.013167443}
+      rotation: {x: -0.08489362, y: -0.2943701, z: 0.023427924, w: 0.95162517}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_eyelid_ori_6_bind
+      parentName: thor_rig_v017:L_eye_upper_eyelid_bind
+      position: {x: -0.013596421, y: 0.001489969, z: 0.008700438}
+      rotation: {x: -0.08246018, y: -0.4741753, z: 0.055213545, w: 0.87481976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_eyelid_nml_0_bind
+      parentName: thor_rig_v017:L_eye_upper_eyelid_bind
+      position: {x: 0.011782315, y: -0.0021875377, z: 0.010676808}
+      rotation: {x: 0.062445723, y: 0.40433857, z: -0.027683869, w: 0.9120551}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_eyelid_nml_1_bind
+      parentName: thor_rig_v017:L_eye_upper_eyelid_bind
+      position: {x: 0.00888623, y: 0.0012913017, z: 0.013303005}
+      rotation: {x: -0.0385273, y: 0.28998587, z: 0.011684336, w: 0.95618373}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_eyelid_nml_2_bind
+      parentName: thor_rig_v017:L_eye_upper_eyelid_bind
+      position: {x: 0.0049129184, y: 0.0025663455, z: 0.015062522}
+      rotation: {x: -0.0792123, y: 0.15648623, z: 0.012591838, w: 0.9844181}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_eyelid_nml_3_bind
+      parentName: thor_rig_v017:L_eye_upper_eyelid_bind
+      position: {x: 0.00040782726, y: 0.0027473436, z: 0.015807854}
+      rotation: {x: -0.08589745, y: 0.012848621, z: 0.001107851, w: 0.9962205}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_eyelid_nml_4_bind
+      parentName: thor_rig_v017:L_eye_upper_eyelid_bind
+      position: {x: -0.00428571, y: 0.0027004909, z: 0.01522966}
+      rotation: {x: -0.083636016, y: -0.13623798, z: -0.011543639, w: 0.98707193}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_eyelid_nml_5_bind
+      parentName: thor_rig_v017:L_eye_upper_eyelid_bind
+      position: {x: -0.009056016, y: 0.0023718826, z: 0.0130370725}
+      rotation: {x: -0.07070643, y: -0.2980961, z: -0.02214804, w: 0.9516558}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_upper_eyelid_nml_6_bind
+      parentName: thor_rig_v017:L_eye_upper_eyelid_bind
+      position: {x: -0.013461803, y: 0.0014752168, z: 0.008614295}
+      rotation: {x: -0.040356636, y: -0.479597, z: -0.022087544, w: 0.8762821}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_eyelid_bind
+      parentName: thor_rig_v017:L_eye_eye_bind
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_eyelid_ori_0_bind
+      parentName: thor_rig_v017:L_eye_lower_eyelid_bind
+      position: {x: 0.011900137, y: -0.002209413, z: 0.010783576}
+      rotation: {x: 0.17496115, y: 0.36983478, z: 0.2330867, w: 0.8822026}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_eyelid_ori_1_bind
+      parentName: thor_rig_v017:L_eye_lower_eyelid_bind
+      position: {x: 0.006850556, y: -0.0054340665, z: 0.013649949}
+      rotation: {x: 0.20540148, y: 0.19180302, z: 0.14248647, w: 0.9490624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_eyelid_ori_2_bind
+      parentName: thor_rig_v017:L_eye_lower_eyelid_bind
+      position: {x: 0.0027347836, y: -0.006571598, z: 0.014564182}
+      rotation: {x: 0.21148035, y: 0.07781688, z: 0.040679663, w: 0.9734299}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_eyelid_ori_3_bind
+      parentName: thor_rig_v017:L_eye_lower_eyelid_bind
+      position: {x: -0.00092329964, y: -0.006731189, z: 0.014717979}
+      rotation: {x: 0.2123651, y: -0.030605104, z: 0.0066545852, w: 0.9766884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_eyelid_ori_4_bind
+      parentName: thor_rig_v017:L_eye_lower_eyelid_bind
+      position: {x: -0.004829646, y: -0.006445809, z: 0.01406792}
+      rotation: {x: 0.21490435, y: -0.1410755, z: -0.060005333, w: 0.9645274}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_eyelid_ori_5_bind
+      parentName: thor_rig_v017:L_eye_lower_eyelid_bind
+      position: {x: -0.009310554, y: -0.0043871743, z: 0.01252384}
+      rotation: {x: 0.2148708, y: -0.2598896, z: -0.23337814, w: 0.9120431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_eyelid_ori_6_bind
+      parentName: thor_rig_v017:L_eye_lower_eyelid_bind
+      position: {x: -0.013596421, y: 0.001489969, z: 0.008700438}
+      rotation: {x: 0.17413904, y: -0.4486842, z: -0.4042834, w: 0.7777616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_eyelid_nml_0_bind
+      parentName: thor_rig_v017:L_eye_lower_eyelid_bind
+      position: {x: 0.011782315, y: -0.0021875377, z: 0.010676808}
+      rotation: {x: 0.062445723, y: 0.40433857, z: -0.027683869, w: 0.9120551}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_eyelid_nml_1_bind
+      parentName: thor_rig_v017:L_eye_lower_eyelid_bind
+      position: {x: 0.0067827287, y: -0.005380264, z: 0.013514801}
+      rotation: {x: 0.16550851, y: 0.22712353, z: -0.039202172, w: 0.9588978}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_eyelid_nml_2_bind
+      parentName: thor_rig_v017:L_eye_lower_eyelid_bind
+      position: {x: 0.0027077063, y: -0.0065065324, z: 0.014419981}
+      rotation: {x: 0.20630008, y: 0.09066247, z: -0.01920117, w: 0.97409034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_eyelid_nml_3_bind
+      parentName: thor_rig_v017:L_eye_lower_eyelid_bind
+      position: {x: -0.00091415807, y: -0.006664543, z: 0.014572256}
+      rotation: {x: 0.2123651, y: -0.030605104, z: 0.0066545852, w: 0.9766884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_eyelid_nml_4_bind
+      parentName: thor_rig_v017:L_eye_lower_eyelid_bind
+      position: {x: -0.004781828, y: -0.006381989, z: 0.013928633}
+      rotation: {x: 0.20027602, y: -0.16116975, z: 0.03342096, w: 0.9658141}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_eyelid_nml_5_bind
+      parentName: thor_rig_v017:L_eye_lower_eyelid_bind
+      position: {x: -0.009218371, y: -0.004343737, z: 0.012399842}
+      rotation: {x: 0.12968038, y: -0.31127974, z: 0.042922955, w: 0.94044966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_lower_eyelid_nml_6_bind
+      parentName: thor_rig_v017:L_eye_lower_eyelid_bind
+      position: {x: -0.013461803, y: 0.0014752168, z: 0.008614295}
+      rotation: {x: -0.040356636, y: -0.479597, z: -0.022087544, w: 0.8762821}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_eyeball_bind
+      parentName: thor_rig_v017:L_eye_output
+      position: {x: -0.02481654, y: 1.7264127, z: 0.046130043}
+      rotation: {x: -0.000057626396, y: -0.13988456, z: -0.000008141087, w: 0.99016786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eye_iris_bind
+      parentName: thor_rig_v017:L_eye_eyeball_bind
+      position: {x: 1.3877787e-19, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.3496517, y: 0.3496517, z: 0.9368798}
+    - name: thor_rig_v017:L_eye_pupil_bind
+      parentName: thor_rig_v017:L_eye_eyeball_bind
+      position: {x: 1.3877787e-19, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.167088, y: 0.167088, z: 0.985942}
+    - name: thor_rig_v017:R_eye_rig_grp
+      parentName: thor_rig_v017:face_grp
+      position: {x: 5.551115e-15, y: 5.684342e-16, z: -2.220446e-16}
+      rotation: {x: 7.1537015e-17, y: 1.110223e-16, z: 7.085261e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_output
+      parentName: thor_rig_v017:R_eye_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_eye_bind
+      parentName: thor_rig_v017:R_eye_output
+      position: {x: 0.02481654, y: 1.7264127, z: 0.046130043}
+      rotation: {x: 0.99017155, y: 0.000008138354, z: -0.13985813, w: 0.000057618152}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_eyelid_bind
+      parentName: thor_rig_v017:R_eye_eye_bind
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_eyelid_ori_0_bind
+      parentName: thor_rig_v017:R_eye_upper_eyelid_bind
+      position: {x: -0.011664546, y: 0.0021656624, z: -0.0105699785}
+      rotation: {x: 0.38998973, y: 0.123689435, z: 0.80480635, w: 0.42999497}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_eyelid_ori_1_bind
+      parentName: thor_rig_v017:R_eye_upper_eyelid_bind
+      position: {x: -0.008797761, y: -0.0012783888, z: -0.013169712}
+      rotation: {x: 0.2730355, y: 0.105052546, z: 0.9325726, w: 0.21148027}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_eyelid_ori_2_bind
+      parentName: thor_rig_v017:R_eye_upper_eyelid_bind
+      position: {x: -0.004864413, y: -0.0025406822, z: -0.014911694}
+      rotation: {x: 0.15161811, y: 0.08820927, z: 0.98347235, w: 0.044868726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_eyelid_ori_3_bind
+      parentName: thor_rig_v017:R_eye_upper_eyelid_bind
+      position: {x: -0.00040445605, y: -0.0027198705, z: -0.015649758}
+      rotation: {x: 0.012871119, y: 0.08589743, z: 0.99622023, w: -0.0011097908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_eyelid_ori_4_bind
+      parentName: thor_rig_v017:R_eye_upper_eyelid_bind
+      position: {x: 0.0042422134, y: -0.002673486, z: -0.0150775425}
+      rotation: {x: -0.13504814, y: 0.085510865, z: 0.98714006, w: -0.0021010763}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_eyelid_ori_5_bind
+      parentName: thor_rig_v017:R_eye_upper_eyelid_bind
+      position: {x: 0.008965061, y: -0.0023481639, z: -0.012906975}
+      rotation: {x: -0.29435578, y: 0.08489257, z: 0.95162976, w: -0.023426982}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_eyelid_ori_6_bind
+      parentName: thor_rig_v017:R_eye_upper_eyelid_bind
+      position: {x: 0.01332714, y: -0.0014604646, z: -0.008528222}
+      rotation: {x: -0.47417352, y: 0.08245692, z: 0.87482136, w: -0.0552079}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_eyelid_nml_0_bind
+      parentName: thor_rig_v017:R_eye_upper_eyelid_bind
+      position: {x: -0.0117823705, y: 0.0021875377, z: -0.010676746}
+      rotation: {x: 0.06244565, y: 0.40434098, z: -0.027684035, w: 0.91205406}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_eyelid_nml_1_bind
+      parentName: thor_rig_v017:R_eye_upper_eyelid_bind
+      position: {x: -0.008886627, y: -0.0012913017, z: -0.01330274}
+      rotation: {x: -0.038527127, y: 0.29000017, z: 0.011684912, w: 0.95617944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_eyelid_nml_2_bind
+      parentName: thor_rig_v017:R_eye_upper_eyelid_bind
+      position: {x: -0.0049135485, y: -0.0025663455, z: -0.015062317}
+      rotation: {x: -0.07921203, y: 0.15650679, z: 0.012593493, w: 0.9844148}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_eyelid_nml_3_bind
+      parentName: thor_rig_v017:R_eye_upper_eyelid_bind
+      position: {x: -0.00040854147, y: -0.0027473436, z: -0.015807837}
+      rotation: {x: -0.08589743, y: 0.012871128, z: 0.0011097915, w: 0.99622023}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_eyelid_nml_4_bind
+      parentName: thor_rig_v017:R_eye_upper_eyelid_bind
+      position: {x: 0.004285064, y: -0.0027004909, z: -0.015229841}
+      rotation: {x: -0.08363626, y: -0.13621704, z: -0.011541865, w: 0.9870748}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_eyelid_nml_5_bind
+      parentName: thor_rig_v017:R_eye_upper_eyelid_bind
+      position: {x: 0.009055617, y: -0.0023718826, z: -0.013037349}
+      rotation: {x: -0.07070676, y: -0.29808158, z: -0.022146959, w: 0.95166034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_upper_eyelid_nml_6_bind
+      parentName: thor_rig_v017:R_eye_upper_eyelid_bind
+      position: {x: 0.013461757, y: -0.0014752168, z: -0.008614366}
+      rotation: {x: -0.040356692, y: -0.47959468, z: -0.022087438, w: 0.87628335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_eyelid_bind
+      parentName: thor_rig_v017:R_eye_eye_bind
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_eyelid_ori_0_bind
+      parentName: thor_rig_v017:R_eye_lower_eyelid_bind
+      position: {x: -0.011664546, y: 0.0021656624, z: -0.0105699785}
+      rotation: {x: 0.36983374, y: -0.17496885, z: 0.88219714, w: -0.2331033}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_eyelid_ori_1_bind
+      parentName: thor_rig_v017:R_eye_lower_eyelid_bind
+      position: {x: -0.006715334, y: 0.0053264615, z: -0.013379436}
+      rotation: {x: 0.19181624, y: -0.20540576, z: 0.9490579, w: -0.14249267}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_eyelid_ori_2_bind
+      parentName: thor_rig_v017:R_eye_lower_eyelid_bind
+      position: {x: -0.0026812616, y: 0.0064414674, z: -0.014275663}
+      rotation: {x: 0.0778381, y: -0.21148136, z: 0.97342813, w: -0.04067638}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_eyelid_ori_3_bind
+      parentName: thor_rig_v017:R_eye_lower_eyelid_bind
+      position: {x: 0.0009043403, y: 0.006597898, z: -0.014426577}
+      rotation: {x: -0.030582214, y: -0.21236524, z: 0.97668904, w: -0.006649608}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_eyelid_ori_4_bind
+      parentName: thor_rig_v017:R_eye_lower_eyelid_bind
+      position: {x: 0.004733403, y: 0.006318168, z: -0.013789556}
+      rotation: {x: -0.14105478, y: -0.21490271, z: 0.9645307, w: 0.060007997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_eyelid_ori_5_bind
+      parentName: thor_rig_v017:R_eye_lower_eyelid_bind
+      position: {x: 0.009125796, y: 0.0043002996, z: -0.012276135}
+      rotation: {x: -0.25987783, y: -0.21486378, z: 0.91205025, w: 0.23336989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_eyelid_ori_6_bind
+      parentName: thor_rig_v017:R_eye_lower_eyelid_bind
+      position: {x: 0.01332714, y: -0.0014604646, z: -0.008528222}
+      rotation: {x: -0.44868597, y: -0.17412807, z: 0.7777717, w: 0.40426666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_eyelid_nml_0_bind
+      parentName: thor_rig_v017:R_eye_lower_eyelid_bind
+      position: {x: -0.0117823705, y: 0.0021875377, z: -0.010676746}
+      rotation: {x: 0.06244565, y: 0.40434098, z: -0.027684035, w: 0.91205406}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_eyelid_nml_1_bind
+      parentName: thor_rig_v017:R_eye_lower_eyelid_bind
+      position: {x: -0.006783165, y: 0.005380264, z: -0.013514582}
+      rotation: {x: 0.16550788, y: 0.22713903, z: -0.039204847, w: 0.9588942}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_eyelid_nml_2_bind
+      parentName: thor_rig_v017:R_eye_lower_eyelid_bind
+      position: {x: -0.002708345, y: 0.0065065324, z: -0.014419862}
+      rotation: {x: 0.20629965, y: 0.090684034, z: -0.019205738, w: 0.9740883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_eyelid_nml_3_bind
+      parentName: thor_rig_v017:R_eye_lower_eyelid_bind
+      position: {x: 0.00091347506, y: 0.006664543, z: -0.014572299}
+      rotation: {x: 0.21236524, y: -0.030582214, z: 0.006649608, w: 0.97668904}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_eyelid_nml_4_bind
+      parentName: thor_rig_v017:R_eye_lower_eyelid_bind
+      position: {x: 0.0047812155, y: 0.0063819876, z: -0.013928845}
+      rotation: {x: 0.20027675, y: -0.16114853, z: 0.033416558, w: 0.9658177}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_eyelid_nml_5_bind
+      parentName: thor_rig_v017:R_eye_lower_eyelid_bind
+      position: {x: 0.009217976, y: 0.004343737, z: -0.012400135}
+      rotation: {x: 0.12968107, y: -0.31126478, z: 0.042920884, w: 0.94045466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_lower_eyelid_nml_6_bind
+      parentName: thor_rig_v017:R_eye_lower_eyelid_bind
+      position: {x: 0.013461757, y: -0.0014752168, z: -0.008614366}
+      rotation: {x: -0.040356692, y: -0.47959468, z: -0.022087438, w: 0.87628335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_eyeball_bind
+      parentName: thor_rig_v017:R_eye_output
+      position: {x: 0.02481654, y: 1.7264127, z: 0.046130043}
+      rotation: {x: 0.9901753, y: 0.000008136816, z: -0.13983169, w: 0.00005761837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eye_iris_bind
+      parentName: thor_rig_v017:R_eye_eyeball_bind
+      position: {x: 1.3877787e-19, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.3496517, y: 0.3496517, z: 0.9368798}
+    - name: thor_rig_v017:R_eye_pupil_bind
+      parentName: thor_rig_v017:R_eye_eyeball_bind
+      position: {x: 1.3877787e-19, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.167088, y: 0.167088, z: 0.985942}
+    - name: thor_rig_v017:L_eyebrow_rig_grp
+      parentName: thor_rig_v017:face_grp
+      position: {x: 8.881784e-18, y: 5.684342e-16, z: -1.7763568e-17}
+      rotation: {x: 1.0408341e-17, y: -5.551115e-17, z: -4.8867165e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eyebrow_cmpt_grp
+      parentName: thor_rig_v017:L_eyebrow_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eyebrow_output
+      parentName: thor_rig_v017:L_eyebrow_cmpt_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eyebrow_inner_bind
+      parentName: thor_rig_v017:L_eyebrow_output
+      position: {x: -0.010423261, y: 1.7391299, z: 0.07365126}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eyebrow_inner_ori_bind
+      parentName: thor_rig_v017:L_eyebrow_inner_bind
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.07504363, y: -0.09978807, z: 0.018910158, w: 0.99199456}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eyebrow_innerMid_bind
+      parentName: thor_rig_v017:L_eyebrow_output
+      position: {x: -0.02177826, y: 1.7425306, z: 0.07008937}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eyebrow_innerMid_ori_bind
+      parentName: thor_rig_v017:L_eyebrow_innerMid_bind
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.07415988, y: -0.14240457, z: 0.022123527, w: 0.9867785}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eyebrow_mid_bind
+      parentName: thor_rig_v017:L_eyebrow_output
+      position: {x: -0.034412272, y: 1.7425549, z: 0.06405043}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eyebrow_mid_ori_bind
+      parentName: thor_rig_v017:L_eyebrow_mid_bind
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.019464025, y: -0.24506341, z: 0.02058284, w: 0.9690931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eyebrow_outerMid_bind
+      parentName: thor_rig_v017:L_eyebrow_output
+      position: {x: -0.043845482, y: 1.7426687, z: 0.056045536}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eyebrow_outerMid_ori_bind
+      parentName: thor_rig_v017:L_eyebrow_outerMid_bind
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.02254654, y: -0.399097, z: 0.017150957, w: 0.916471}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eyebrow_outer_bind
+      parentName: thor_rig_v017:L_eyebrow_output
+      position: {x: -0.050878208, y: 1.7374209, z: 0.046887152}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_eyebrow_outer_ori_bind
+      parentName: thor_rig_v017:L_eyebrow_outer_bind
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.02453964, y: -0.51210535, z: 0.01415301, w: 0.85845536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eyebrow_rig_grp
+      parentName: thor_rig_v017:face_grp
+      position: {x: -1.4210854e-16, y: 2.842171e-16, z: 2.3092638e-16}
+      rotation: {x: -6.314175e-17, y: -2.7929184e-17, z: 3.5513738e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eyebrow_cmpt_grp
+      parentName: thor_rig_v017:R_eyebrow_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eyebrow_output
+      parentName: thor_rig_v017:R_eyebrow_cmpt_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eyebrow_inner_bind
+      parentName: thor_rig_v017:R_eyebrow_output
+      position: {x: 0.010423261, y: 1.7391299, z: 0.07365126}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eyebrow_inner_ori_bind
+      parentName: thor_rig_v017:R_eyebrow_inner_bind
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.99199456, y: -0.018910153, z: -0.09978807, w: 0.07504364}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eyebrow_innerMid_bind
+      parentName: thor_rig_v017:R_eyebrow_output
+      position: {x: 0.02177826, y: 1.7425306, z: 0.07008937}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eyebrow_innerMid_ori_bind
+      parentName: thor_rig_v017:R_eyebrow_innerMid_bind
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.9867785, y: -0.022123536, z: -0.14240457, w: 0.07415981}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eyebrow_mid_bind
+      parentName: thor_rig_v017:R_eyebrow_output
+      position: {x: 0.034412272, y: 1.7425549, z: 0.06405043}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eyebrow_mid_ori_bind
+      parentName: thor_rig_v017:R_eyebrow_mid_bind
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.9690931, y: -0.020582844, z: -0.24506341, w: -0.01946404}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eyebrow_outerMid_bind
+      parentName: thor_rig_v017:R_eyebrow_output
+      position: {x: 0.043845482, y: 1.7426687, z: 0.056045536}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eyebrow_outerMid_ori_bind
+      parentName: thor_rig_v017:R_eyebrow_outerMid_bind
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.916471, y: -0.017150981, z: -0.399097, w: -0.0225466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eyebrow_outer_bind
+      parentName: thor_rig_v017:R_eyebrow_output
+      position: {x: 0.050878208, y: 1.7374209, z: 0.046887152}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_eyebrow_outer_ori_bind
+      parentName: thor_rig_v017:R_eyebrow_outer_bind
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.85845536, y: -0.014153024, z: -0.51210535, w: -0.024539663}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_rig_grp
+      parentName: thor_rig_v017:face_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_output
+      parentName: thor_rig_v017:mouth_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_jaw_bind
+      parentName: thor_rig_v017:mouth_output
+      position: {x: -0, y: 1.6366763, z: 0.0802716}
+      rotation: {x: -0.0076460545, y: 0, z: -0, w: 0.9999708}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_lower_teeth_bind
+      parentName: thor_rig_v017:mouth_output
+      position: {x: -2.0122791e-17, y: 1.6607604, z: 0.028364008}
+      rotation: {x: 0.0013552324, y: -0, z: -0, w: 0.9999991}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_upper_teeth_bind
+      parentName: thor_rig_v017:mouth_output
+      position: {x: -2.0122791e-17, y: 1.6733466, z: 0.028478386}
+      rotation: {x: -0.003793595, y: 0, z: -0, w: 0.99999285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_mouth_grp
+      parentName: thor_rig_v017:mouth_output
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_L_upper_sub_03_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -0.025539346, y: 1.6616632, z: 0.06732631}
+      rotation: {x: -0.3298426, y: 0.027276335, z: 0.94115084, w: -0.068520464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_L_upper_sub_02_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -0.0148204565, y: 1.6637934, z: 0.075181946}
+      rotation: {x: -0.26779318, y: 0.01871781, z: 0.96010566, w: -0.078317404}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_L_upper_sub_01_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -0.007394453, y: 1.6647799, z: 0.07843843}
+      rotation: {x: -0.1341818, y: 0.007771034, z: 0.9903996, w: -0.032304227}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_M_upper_sub_01_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -9.436896e-18, y: 1.6649846, z: 0.079425834}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_R_upper_sub_01_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: 0.0073767826, y: 1.6647811, z: 0.078443296}
+      rotation: {x: 0.13378894, y: 0.0059158923, z: 0.99046123, w: 0.03243589}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_R_upper_sub_02_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: 0.0148204565, y: 1.6637934, z: 0.075181946}
+      rotation: {x: 0.2676122, y: 0.016507665, z: 0.9601462, w: 0.078933634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_R_upper_sub_03_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: 0.025504772, y: 1.6616697, z: 0.067353904}
+      rotation: {x: 0.32957727, y: 0.02439718, z: 0.94124556, w: 0.0695732}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_L_lower_sub_03_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -0.025539346, y: 1.6616632, z: 0.06732631}
+      rotation: {x: -0.32984263, y: 0.027275804, z: 0.9411509, w: -0.06851918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_L_lower_sub_02_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -0.014839807, y: 1.6637896, z: 0.07517022}
+      rotation: {x: -0.26806387, y: 0.018744357, z: 0.9600267, w: -0.078352675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_L_lower_sub_01_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -0.0073944526, y: 1.6647799, z: 0.07843842}
+      rotation: {x: -0.13418168, y: 0.007771342, z: 0.99039954, w: -0.03230561}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_M_lower_sub_01_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -0.000008881141, y: 1.6649846, z: 0.07942583}
+      rotation: {x: -0.00015054438, y: 0.000000609112, z: 1, w: -0.000017443614}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_R_lower_sub_01_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: 0.0073767826, y: 1.6647811, z: 0.07844329}
+      rotation: {x: 0.13378881, y: 0.005916129, z: 0.9904612, w: 0.032437287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_R_lower_sub_02_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: 0.0148204565, y: 1.6637933, z: 0.075181946}
+      rotation: {x: 0.26761204, y: 0.016507434, z: 0.9601463, w: 0.078932524}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_R_lower_sub_03_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: 0.025504772, y: 1.6616697, z: 0.067353904}
+      rotation: {x: 0.32960814, y: 0.02481396, z: 0.9412347, w: 0.06942571}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_L_upper_sub_03_trans_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -0.025539346, y: 1.6616632, z: 0.06732631}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_L_upper_sub_02_trans_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -0.0148204565, y: 1.6637934, z: 0.075181946}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_L_upper_sub_01_trans_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -0.007394453, y: 1.6647799, z: 0.07843843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_M_upper_sub_01_trans_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -9.436896e-18, y: 1.6649846, z: 0.079425834}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_R_upper_sub_01_trans_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: 0.0073767826, y: 1.6647811, z: 0.078443296}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_R_upper_sub_02_trans_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: 0.0148204565, y: 1.6637934, z: 0.075181946}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_R_upper_sub_03_trans_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: 0.025504772, y: 1.6616697, z: 0.067353904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_L_lower_sub_03_trans_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -0.025539346, y: 1.6616632, z: 0.06732631}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_L_lower_sub_02_trans_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -0.014839807, y: 1.6637896, z: 0.07517022}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_L_lower_sub_01_trans_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -0.0073944526, y: 1.6647799, z: 0.07843842}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_M_lower_sub_01_trans_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: -0.000008881141, y: 1.6649846, z: 0.07942583}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_R_lower_sub_01_trans_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: 0.0073767826, y: 1.6647811, z: 0.07844329}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_R_lower_sub_02_trans_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: 0.0148204565, y: 1.6637933, z: 0.075181946}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_R_lower_sub_03_trans_bind
+      parentName: thor_rig_v017:mouth_mouth_grp
+      position: {x: 0.025504772, y: 1.6616697, z: 0.067353904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_arm_rig_grp
+      parentName: thor_rig_v017:chest_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_arm_grp
+      parentName: thor_rig_v017:L_arm_rig_grp
+      position: {x: -0, y: 1.4210854e-16, z: -1.7763568e-17}
+      rotation: {x: 6.938894e-18, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_arm_cmpt_grp
+      parentName: thor_rig_v017:L_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_arm_output
+      parentName: thor_rig_v017:L_arm_cmpt_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_arm_clavicleStart_out
+      parentName: thor_rig_v017:L_arm_output
+      position: {x: -0.04724976, y: 1.4726887, z: -0.059291832}
+      rotation: {x: 0.7109535, y: 0, z: 0, w: 0.703239}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_arm_clavicleEnd_out
+      parentName: thor_rig_v017:L_arm_output
+      position: {x: -0.21167503, y: 1.4574403, z: -0.06602305}
+      rotation: {x: 0.7332957, y: 0.0030469256, z: -0.0011998612, w: 0.6799021}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_arm_upper_0_out
+      parentName: thor_rig_v017:L_arm_output
+      position: {x: -0.21167503, y: 1.4574403, z: -0.06602305}
+      rotation: {x: 0.64353156, y: 0.48846212, z: -0.022430317, w: 0.58887076}
+      scale: {x: 1, y: 1.0088774, z: 1.0088774}
+    - name: thor_rig_v017:L_arm_upper_1_out
+      parentName: thor_rig_v017:L_arm_output
+      position: {x: -0.27797037, y: 1.3809222, z: 0.010734649}
+      rotation: {x: 0.6634016, y: 0.48740184, z: -0.039214745, w: 0.56639206}
+      scale: {x: 1, y: 1.0088774, z: 1.0088774}
+    - name: thor_rig_v017:L_arm_upper_2_out
+      parentName: thor_rig_v017:L_arm_output
+      position: {x: -0.34426573, y: 1.3044043, z: 0.08749235}
+      rotation: {x: 0.6824868, y: 0.485765, z: -0.055952754, w: 0.54324347}
+      scale: {x: 1, y: 1.0088774, z: 1.0088774}
+    - name: thor_rig_v017:L_arm_lower_0_out
+      parentName: thor_rig_v017:L_arm_output
+      position: {x: -0.34426573, y: 1.3044043, z: 0.08749235}
+      rotation: {x: -0.2169503, y: -0.47501728, z: 0.7415426, w: -0.4211957}
+      scale: {x: 1, y: 1.1236697, z: 1.1236697}
+    - name: thor_rig_v017:L_arm_lower_1_out
+      parentName: thor_rig_v017:L_arm_output
+      position: {x: -0.28983772, y: 1.3457457, z: 0.15879562}
+      rotation: {x: 0.069617234, y: 0.68867385, z: -0.5488671, w: 0.46864343}
+      scale: {x: 1, y: 1.1236697, z: 1.1236697}
+    - name: thor_rig_v017:L_arm_lower_2_out
+      parentName: thor_rig_v017:L_arm_output
+      position: {x: -0.23540969, y: 1.3870871, z: 0.23009889}
+      rotation: {x: -0.08514613, y: 0.8288274, z: -0.2976104, w: 0.46607226}
+      scale: {x: 1, y: 1.1236697, z: 1.1236697}
+    - name: thor_rig_v017:L_arm_end_out
+      parentName: thor_rig_v017:L_arm_output
+      position: {x: -0.23540969, y: 1.3870871, z: 0.23009889}
+      rotation: {x: -0.08417672, y: 0.7336589, z: -0.2805715, w: 0.61313826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_arm_rig_grp
+      parentName: thor_rig_v017:chest_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_arm_grp
+      parentName: thor_rig_v017:R_arm_rig_grp
+      position: {x: -0, y: 4.2632563e-16, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_arm_cmpt_grp
+      parentName: thor_rig_v017:R_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_arm_output
+      parentName: thor_rig_v017:R_arm_cmpt_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_arm_clavicleStart_out
+      parentName: thor_rig_v017:R_arm_output
+      position: {x: 0.04724976, y: 1.4726887, z: -0.059291832}
+      rotation: {x: -0.703239, y: 0, z: -0, w: 0.7109535}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_arm_clavicleEnd_out
+      parentName: thor_rig_v017:R_arm_output
+      position: {x: 0.21167503, y: 1.4574403, z: -0.06602305}
+      rotation: {x: -0.6343306, y: -0.0034405186, z: -0.008736844, w: 0.77300495}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_arm_upper_0_out
+      parentName: thor_rig_v017:R_arm_output
+      position: {x: 0.21167503, y: 1.4574403, z: -0.06602305}
+      rotation: {x: -0.5878498, y: -0.016154159, z: -0.59414387, w: 0.5487848}
+      scale: {x: 1, y: 0.9841474, z: 0.9841474}
+    - name: thor_rig_v017:R_arm_upper_1_out
+      parentName: thor_rig_v017:R_arm_output
+      position: {x: 0.2520912, y: 1.370246, z: 0.03262163}
+      rotation: {x: 0.666955, y: -0.07763633, z: 0.5892711, w: -0.44933638}
+      scale: {x: 1, y: 0.9841474, z: 0.9841474}
+    - name: thor_rig_v017:R_arm_upper_2_out
+      parentName: thor_rig_v017:R_arm_output
+      position: {x: 0.29250735, y: 1.2830521, z: 0.13126631}
+      rotation: {x: 0.7294076, y: -0.1694884, z: 0.5696855, w: -0.33866888}
+      scale: {x: 1, y: 0.9841474, z: 0.9841474}
+    - name: thor_rig_v017:R_arm_lower_0_out
+      parentName: thor_rig_v017:R_arm_output
+      position: {x: 0.29250735, y: 1.2830521, z: 0.13126631}
+      rotation: {x: 0.3682925, y: 0.33945712, z: 0.8191385, w: 0.27953812}
+      scale: {x: 1, y: 0.9721381, z: 0.9721381}
+    - name: thor_rig_v017:R_arm_lower_1_out
+      parentName: thor_rig_v017:R_arm_output
+      position: {x: 0.21696706, y: 1.3764813, z: 0.18584366}
+      rotation: {x: 0.37562844, y: 0.3612178, z: 0.8097783, w: 0.26960015}
+      scale: {x: 1, y: 0.9721381, z: 0.9721381}
+    - name: thor_rig_v017:R_arm_lower_2_out
+      parentName: thor_rig_v017:R_arm_output
+      position: {x: 0.14142679, y: 1.4699107, z: 0.240421}
+      rotation: {x: 0.38269624, y: 0.38272056, z: 0.79984003, w: 0.2594697}
+      scale: {x: 1, y: 0.9721381, z: 0.9721381}
+    - name: thor_rig_v017:R_arm_end_out
+      parentName: thor_rig_v017:R_arm_output
+      position: {x: 0.14142679, y: 1.4699107, z: 0.240421}
+      rotation: {x: 0.45085335, y: 0.3760972, z: 0.7368892, w: 0.33507684}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:headNeck_asset
+      parentName: thor_rig_v017:chest_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:headNeck_output
+      parentName: thor_rig_v017:headNeck_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:headNeck_start_bind
+      parentName: thor_rig_v017:headNeck_output
+      position: {x: -0, y: 1.5368735, z: -0.060145617}
+      rotation: {x: 0.005454918, y: -0, z: -0, w: 0.99998516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:headNeck_mid_bind
+      parentName: thor_rig_v017:headNeck_output
+      position: {x: -0, y: 1.5998952, z: -0.0343245}
+      rotation: {x: 0.0054549132, y: -0, z: -0, w: 0.99998516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:headNeck_end_ctrl_bind
+      parentName: thor_rig_v017:headNeck_output
+      position: {x: -0, y: 1.6629171, z: -0.008503387}
+      rotation: {x: -0.047737256, y: 0, z: -0, w: 0.99885994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_rig_grp
+      parentName: thor_rig_v017:chest_grp
+      position: {x: -0, y: 1.4210854e-16, z: -1.7763568e-17}
+      rotation: {x: 6.938894e-18, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_cmpts_grp
+      parentName: thor_rig_v017:L_hand_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_index_asset
+      parentName: thor_rig_v017:L_hand_cmpts_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_index_output
+      parentName: thor_rig_v017:L_hand_index_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_index_carpal_bind
+      parentName: thor_rig_v017:L_hand_index_output
+      position: {x: -0.20243444, y: 1.455974, z: 0.27256638}
+      rotation: {x: 0.33270082, y: 0.28724492, z: -0.7339075, w: 0.5178613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_index_phalanx_0_bind
+      parentName: thor_rig_v017:L_hand_index_output
+      position: {x: -0.17943756, y: 1.5043488, z: 0.33722237}
+      rotation: {x: 0.013950987, y: -0.43932316, z: 0.8642638, w: 0.24463989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_index_phalanx_1_bind
+      parentName: thor_rig_v017:L_hand_index_output
+      position: {x: -0.14088358, y: 1.4866226, z: 0.32689413}
+      rotation: {x: 0.31427354, y: -0.30729726, z: 0.45413837, w: 0.77495736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_index_phalanx_2_bind
+      parentName: thor_rig_v017:L_hand_index_output
+      position: {x: -0.15694144, y: 1.4660505, z: 0.2962114}
+      rotation: {x: 0.42909804, y: -0.095259175, z: -0.02303196, w: 0.89792544}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_middle_asset
+      parentName: thor_rig_v017:L_hand_cmpts_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_middle_output
+      parentName: thor_rig_v017:L_hand_middle_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_middle_carpal_bind
+      parentName: thor_rig_v017:L_hand_middle_output
+      position: {x: -0.22467142, y: 1.4378608, z: 0.28752276}
+      rotation: {x: -0.36777395, y: -0.31863618, z: 0.7218419, w: -0.49209526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_middle_phalanx_0_bind
+      parentName: thor_rig_v017:L_hand_middle_output
+      position: {x: -0.1994862, y: 1.4755201, z: 0.35798186}
+      rotation: {x: 0.016284646, y: -0.48633474, z: 0.8366452, w: 0.25147206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_middle_phalanx_1_bind
+      parentName: thor_rig_v017:L_hand_middle_output
+      position: {x: -0.15185188, y: 1.4533772, z: 0.3429075}
+      rotation: {x: 0.32974166, y: -0.35785067, z: 0.46977478, w: 0.73656297}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_middle_phalanx_2_bind
+      parentName: thor_rig_v017:L_hand_middle_output
+      position: {x: -0.16264519, y: 1.437106, z: 0.31304508}
+      rotation: {x: 0.47110647, y: -0.12184171, z: -0.004740645, w: 0.873608}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_pinky_asset
+      parentName: thor_rig_v017:L_hand_cmpts_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_pinky_output
+      parentName: thor_rig_v017:L_hand_pinky_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_pinky_carpal_bind
+      parentName: thor_rig_v017:L_hand_pinky_output
+      position: {x: -0.23007186, y: 1.3851134, z: 0.29349628}
+      rotation: {x: -0.47789112, y: -0.35309404, z: 0.6415059, w: -0.4851957}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_pinky_phalanx_0_bind
+      parentName: thor_rig_v017:L_hand_pinky_output
+      position: {x: -0.2216629, y: 1.4071766, z: 0.3696086}
+      rotation: {x: -0.026212383, y: -0.5936062, z: 0.7807388, w: 0.1933694}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_pinky_phalanx_1_bind
+      parentName: thor_rig_v017:L_hand_pinky_output
+      position: {x: -0.18305002, y: 1.3932561, z: 0.3617242}
+      rotation: {x: 0.37897846, y: -0.45763594, z: 0.44898182, w: 0.667353}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_pinky_phalanx_2_bind
+      parentName: thor_rig_v017:L_hand_pinky_output
+      position: {x: -0.18917467, y: 1.3845702, z: 0.32899243}
+      rotation: {x: 0.5749342, y: -0.15002035, z: -0.025472745, w: 0.8039253}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_thumb_asset
+      parentName: thor_rig_v017:L_hand_cmpts_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_thumb_output
+      parentName: thor_rig_v017:L_hand_thumb_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_thumb_carpal_bind
+      parentName: thor_rig_v017:L_hand_thumb_output
+      position: {x: -0.19820783, y: 1.435644, z: 0.25701138}
+      rotation: {x: -0.27981177, y: 0.48381165, z: 0.78624827, w: -0.26352483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_thumb_phalanx_0_bind
+      parentName: thor_rig_v017:L_hand_thumb_output
+      position: {x: -0.17302148, y: 1.4748715, z: 0.28402463}
+      rotation: {x: -0.54399544, y: 0.2097606, z: 0.7298452, w: 0.3569249}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_thumb_phalanx_1_bind
+      parentName: thor_rig_v017:L_hand_thumb_output
+      position: {x: -0.16288842, y: 1.4549934, z: 0.3311713}
+      rotation: {x: -0.58086675, y: -0.05024309, z: 0.4991809, w: 0.6410054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_ring_asset
+      parentName: thor_rig_v017:L_hand_cmpts_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_ring_output
+      parentName: thor_rig_v017:L_hand_ring_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_ring_carpal_bind
+      parentName: thor_rig_v017:L_hand_ring_output
+      position: {x: -0.23071003, y: 1.4119148, z: 0.2924719}
+      rotation: {x: -0.39526334, y: -0.3307087, z: 0.70363295, w: -0.4891823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_ring_phalanx_0_bind
+      parentName: thor_rig_v017:L_hand_ring_output
+      position: {x: -0.2116837, y: 1.4445364, z: 0.3657145}
+      rotation: {x: 0.008373309, y: -0.51529723, z: 0.8229248, w: 0.23915146}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_ring_phalanx_1_bind
+      parentName: thor_rig_v017:L_hand_ring_output
+      position: {x: -0.16441096, y: 1.4238559, z: 0.3517561}
+      rotation: {x: 0.3450492, y: -0.37933677, z: 0.4544795, w: 0.72834957}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_ring_phalanx_2_bind
+      parentName: thor_rig_v017:L_hand_ring_output
+      position: {x: -0.17661457, y: 1.407525, z: 0.3164141}
+      rotation: {x: 0.4953304, y: -0.13267687, z: -0.011258981, w: 0.8584392}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_rig_grp
+      parentName: thor_rig_v017:chest_grp
+      position: {x: -0, y: 4.2632563e-16, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_cmpts_grp
+      parentName: thor_rig_v017:R_hand_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_index_asset
+      parentName: thor_rig_v017:R_hand_cmpts_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_index_output
+      parentName: thor_rig_v017:R_hand_index_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_index_carpal_bind
+      parentName: thor_rig_v017:R_hand_index_output
+      position: {x: 0.11430087, y: 1.5526941, z: 0.23354125}
+      rotation: {x: 0.57693106, y: 0.78551686, z: 0.22090262, w: -0.036274217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_index_phalanx_0_bind
+      parentName: thor_rig_v017:R_hand_index_output
+      position: {x: 0.08456491, y: 1.6275126, z: 0.2573599}
+      rotation: {x: -0.031051422, y: 0.97412634, z: 0.19617788, w: 0.10783342}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_index_phalanx_1_bind
+      parentName: thor_rig_v017:R_hand_index_output
+      position: {x: 0.04199056, y: 1.6269847, z: 0.24764185}
+      rotation: {x: 0.73488873, y: -0.6401755, z: -0.054494835, w: -0.21712698}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_index_phalanx_2_bind
+      parentName: thor_rig_v017:R_hand_index_output
+      position: {x: 0.049015883, y: 1.5900377, z: 0.23321773}
+      rotation: {x: 0.9697604, y: -0.097216226, z: 0.081121005, w: -0.2086461}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_middle_asset
+      parentName: thor_rig_v017:R_hand_cmpts_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_middle_output
+      parentName: thor_rig_v017:R_hand_middle_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_middle_carpal_bind
+      parentName: thor_rig_v017:R_hand_middle_output
+      position: {x: 0.12579022, y: 1.542569, z: 0.26203224}
+      rotation: {x: 0.5540152, y: 0.7899603, z: 0.25167465, w: -0.07543029}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_middle_phalanx_0_bind
+      parentName: thor_rig_v017:R_hand_middle_output
+      position: {x: 0.08968187, y: 1.6109316, z: 0.2942771}
+      rotation: {x: -0.05182244, y: 0.9634753, z: 0.24455874, w: 0.09602565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_middle_phalanx_1_bind
+      parentName: thor_rig_v017:R_hand_middle_output
+      position: {x: 0.036379576, y: 1.6078972, z: 0.28260547}
+      rotation: {x: 0.706926, y: -0.65667784, z: -0.10908409, w: -0.23901993}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_middle_phalanx_2_bind
+      parentName: thor_rig_v017:R_hand_middle_output
+      position: {x: 0.040438082, y: 1.5766314, z: 0.26590234}
+      rotation: {x: 0.95856124, y: -0.11013858, z: 0.05374653, w: -0.25717926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_pinky_asset
+      parentName: thor_rig_v017:R_hand_cmpts_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_pinky_output
+      parentName: thor_rig_v017:R_hand_pinky_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_pinky_carpal_bind
+      parentName: thor_rig_v017:R_hand_pinky_output
+      position: {x: 0.11632767, y: 1.4989144, z: 0.2912191}
+      rotation: {x: 0.56079483, y: 0.74247813, z: 0.31096134, w: -0.19374835}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_pinky_phalanx_0_bind
+      parentName: thor_rig_v017:R_hand_pinky_output
+      position: {x: 0.09017812, y: 1.5552496, z: 0.34115013}
+      rotation: {x: -0.017176691, y: 0.9303062, z: 0.36424115, w: 0.039543968}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_pinky_phalanx_1_bind
+      parentName: thor_rig_v017:R_hand_pinky_output
+      position: {x: 0.048537545, y: 1.555118, z: 0.33755195}
+      rotation: {x: 0.6749958, y: -0.6404259, z: -0.22735798, w: -0.28730422}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_pinky_phalanx_2_bind
+      parentName: thor_rig_v017:R_hand_pinky_output
+      position: {x: 0.05116423, y: 1.5298605, z: 0.31432506}
+      rotation: {x: 0.92790234, y: -0.06900615, z: 0.0056599993, w: -0.36633775}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_thumb_asset
+      parentName: thor_rig_v017:R_hand_cmpts_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_thumb_output
+      parentName: thor_rig_v017:R_hand_thumb_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_thumb_carpal_bind
+      parentName: thor_rig_v017:R_hand_thumb_output
+      position: {x: 0.110404156, y: 1.5277184, z: 0.22769703}
+      rotation: {x: 0.46817422, y: 0.6633638, z: -0.57545644, w: -0.098036885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_thumb_phalanx_0_bind
+      parentName: thor_rig_v017:R_hand_thumb_output
+      position: {x: 0.077950455, y: 1.5624309, z: 0.20619293}
+      rotation: {x: 0.31153217, y: -0.71602374, z: 0.2542269, w: 0.570637}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_thumb_phalanx_1_bind
+      parentName: thor_rig_v017:R_hand_thumb_output
+      position: {x: 0.06765376, y: 1.549486, z: 0.2556604}
+      rotation: {x: 0.5301236, y: -0.5733334, z: 0.051940657, w: 0.6225432}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_ring_asset
+      parentName: thor_rig_v017:R_hand_cmpts_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_ring_output
+      parentName: thor_rig_v017:R_hand_ring_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_ring_carpal_bind
+      parentName: thor_rig_v017:R_hand_ring_output
+      position: {x: 0.12362198, y: 1.5218403, z: 0.27934638}
+      rotation: {x: 0.55408627, y: 0.78077847, z: 0.26911932, w: -0.10463362}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_ring_phalanx_0_bind
+      parentName: thor_rig_v017:R_hand_ring_output
+      position: {x: 0.09111348, y: 1.5867293, z: 0.31837577}
+      rotation: {x: -0.046098243, y: 0.9562957, z: 0.2763106, w: 0.08382053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_ring_phalanx_1_bind
+      parentName: thor_rig_v017:R_hand_ring_output
+      position: {x: 0.038641624, y: 1.5843661, z: 0.3084584}
+      rotation: {x: 0.71011686, y: -0.64349896, z: -0.13764797, w: -0.25039202}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_ring_phalanx_2_bind
+      parentName: thor_rig_v017:R_hand_ring_output
+      position: {x: 0.0441058, y: 1.5498903, z: 0.28733408}
+      rotation: {x: 0.9531072, y: -0.09971729, z: 0.036854576, w: -0.28334585}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:hips_grp
+      parentName: thor_rig_v017:body_grp
+      position: {x: -0, y: 0, z: -0.05018335}
+      rotation: {x: 3.469447e-18, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_leg_rig_grp
+      parentName: thor_rig_v017:hips_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_leg_grp
+      parentName: thor_rig_v017:L_leg_rig_grp
+      position: {x: -0, y: 1.4210854e-16, z: 0}
+      rotation: {x: 4.2263526e-31, y: -5.8939974e-17, z: 5.4975873e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_leg_cmpt_grp
+      parentName: thor_rig_v017:L_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_leg_output
+      parentName: thor_rig_v017:L_leg_cmpt_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_leg_upper_0_out
+      parentName: thor_rig_v017:L_leg_output
+      position: {x: -0.10776646, y: 1.0164145, z: 0.017801303}
+      rotation: {x: 0.6550368, y: 0.31085205, z: -0.571139, w: -0.38483527}
+      scale: {x: 1, y: 0.99940336, z: 0.99940336}
+    - name: thor_rig_v017:L_leg_upper_1_out
+      parentName: thor_rig_v017:L_leg_output
+      position: {x: -0.1453139, y: 0.8104039, z: 0.14162262}
+      rotation: {x: 0.63964915, y: 0.31527185, z: -0.59103185, w: -0.37700656}
+      scale: {x: 1, y: 0.99940336, z: 0.99940336}
+    - name: thor_rig_v017:L_leg_upper_2_out
+      parentName: thor_rig_v017:L_leg_output
+      position: {x: -0.1570462, y: 0.60852563, z: 0.26686034}
+      rotation: {x: 0.6379207, y: 0.3125693, z: -0.5924656, w: -0.3799239}
+      scale: {x: 1, y: 0.99940336, z: 0.99940336}
+    - name: thor_rig_v017:L_leg_lower_0_out
+      parentName: thor_rig_v017:L_leg_output
+      position: {x: -0.1570462, y: 0.60852563, z: 0.26686034}
+      rotation: {x: -0.5127432, y: -0.49166733, z: 0.44896713, w: 0.54202044}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: thor_rig_v017:L_leg_lower_1_out
+      parentName: thor_rig_v017:L_leg_output
+      position: {x: -0.18049903, y: 0.40356326, z: 0.25184795}
+      rotation: {x: -0.50999165, y: -0.4893873, z: 0.45145133, w: 0.5446102}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: thor_rig_v017:L_leg_lower_2_out
+      parentName: thor_rig_v017:L_leg_output
+      position: {x: -0.20395187, y: 0.1986009, z: 0.23683558}
+      rotation: {x: -0.50722706, y: -0.48709473, z: 0.45392394, w: 0.547186}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: thor_rig_v017:L_leg_end_out
+      parentName: thor_rig_v017:L_leg_output
+      position: {x: -0.20395187, y: 0.1986009, z: 0.23683558}
+      rotation: {x: 0.52210516, y: 0.52210516, z: -0.47687125, w: -0.47687125}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_leg_carpals_out
+      parentName: thor_rig_v017:L_leg_output
+      position: {x: -0.20381215, y: 0.11654052, z: 0.3698288}
+      rotation: {x: 0.7383683, y: 1.5460517e-15, z: -0.6743978, w: 1.4046108e-15}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_leg_rig_grp
+      parentName: thor_rig_v017:hips_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_leg_grp
+      parentName: thor_rig_v017:R_leg_rig_grp
+      position: {x: -0, y: 1.4210854e-16, z: 0}
+      rotation: {x: 4.2263526e-31, y: 5.8939974e-17, z: -5.4975873e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_leg_cmpt_grp
+      parentName: thor_rig_v017:R_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_leg_output
+      parentName: thor_rig_v017:R_leg_cmpt_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_leg_upper_0_out
+      parentName: thor_rig_v017:R_leg_output
+      position: {x: 0.10776646, y: 1.0164145, z: 0.017801303}
+      rotation: {x: 0.44797888, y: -0.5403272, z: -0.38204217, w: 0.6011699}
+      scale: {x: 1, y: 1.0000008, z: 1.0000008}
+    - name: thor_rig_v017:R_leg_upper_1_out
+      parentName: thor_rig_v017:R_leg_output
+      position: {x: 0.13759771, y: 0.78977317, z: 0.0916376}
+      rotation: {x: 0.45210782, y: -0.542945, z: -0.3783126, w: 0.5980709}
+      scale: {x: 1, y: 1.0000008, z: 1.0000008}
+    - name: thor_rig_v017:R_leg_upper_2_out
+      parentName: thor_rig_v017:R_leg_output
+      position: {x: 0.16742897, y: 0.56313175, z: 0.1654739}
+      rotation: {x: 0.45621526, y: -0.5455372, z: -0.37456498, w: 0.59494364}
+      scale: {x: 1, y: 1.0000008, z: 1.0000008}
+    - name: thor_rig_v017:R_leg_lower_0_out
+      parentName: thor_rig_v017:R_leg_output
+      position: {x: 0.16742897, y: 0.56313175, z: 0.1654739}
+      rotation: {x: 0.6380928, y: -0.31397566, z: -0.5834545, w: 0.39222154}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_leg_lower_1_out
+      parentName: thor_rig_v017:R_leg_output
+      position: {x: 0.19266415, y: 0.38558027, z: 0.06240281}
+      rotation: {x: 0.64123213, y: -0.31866616, z: -0.58090603, w: 0.38706782}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_leg_lower_2_out
+      parentName: thor_rig_v017:R_leg_output
+      position: {x: 0.21789934, y: 0.20802882, z: -0.04066827}
+      rotation: {x: 0.6443298, y: -0.323336, z: -0.5783198, w: 0.38188913}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_leg_end_out
+      parentName: thor_rig_v017:R_leg_output
+      position: {x: 0.21789934, y: 0.20802882, z: -0.04066827}
+      rotation: {x: 0.47687128, y: -0.47687128, z: -0.5221052, w: 0.5221052}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_leg_carpals_out
+      parentName: thor_rig_v017:R_leg_output
+      position: {x: 0.21775962, y: 0.12596846, z: 0.09232494}
+      rotation: {x: 4.624608e-16, y: -0.6743978, z: 1.0344136e-15, w: 0.7383683}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_rig_grp
+      parentName: thor_rig_v017:body_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_rig_grp
+      parentName: thor_rig_v017:spine_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_start_buf
+      parentName: thor_rig_v017:spine_ik_rig_grp
+      position: {x: -0, y: 1.0292495, z: 0.058104064}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_start_const
+      parentName: thor_rig_v017:spine_ik_start_buf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_start_pivot
+      parentName: thor_rig_v017:spine_ik_start_const
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_start_ctrl
+      parentName: thor_rig_v017:spine_ik_start_pivot
+      position: {x: -0, y: 0, z: -0.05018335}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_start_extra_ctrl
+      parentName: thor_rig_v017:spine_ik_start_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_start_pivot_inv
+      parentName: thor_rig_v017:spine_ik_start_extra_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_start_out
+      parentName: thor_rig_v017:spine_ik_start_pivot_inv
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_mid_buf
+      parentName: thor_rig_v017:spine_ik_rig_grp
+      position: {x: -0, y: 1.1767362, z: 0.037957337}
+      rotation: {x: 0.103055924, y: -0, z: -0, w: 0.9946756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_mid_pivot
+      parentName: thor_rig_v017:spine_ik_mid_buf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_mid_ctrl
+      parentName: thor_rig_v017:spine_ik_mid_pivot
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_mid_extra
+      parentName: thor_rig_v017:spine_ik_mid_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_mid_pivot_inv
+      parentName: thor_rig_v017:spine_ik_mid_extra
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_mid_out
+      parentName: thor_rig_v017:spine_ik_mid_pivot_inv
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_end_buf
+      parentName: thor_rig_v017:spine_ik_rig_grp
+      position: {x: -0, y: 1.3012522, z: 0.030216217}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_end_const
+      parentName: thor_rig_v017:spine_ik_end_buf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_end_pivot
+      parentName: thor_rig_v017:spine_ik_end_const
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_end_ctrl
+      parentName: thor_rig_v017:spine_ik_end_pivot
+      position: {x: -0, y: 0, z: 0.006179787}
+      rotation: {x: 0.053185243, y: -9.226169e-20, z: 1.7322683e-18, w: 0.9985847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_end_extra_ctrl
+      parentName: thor_rig_v017:spine_ik_end_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_end_pivot_inv
+      parentName: thor_rig_v017:spine_ik_end_extra_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_end_out
+      parentName: thor_rig_v017:spine_ik_end_pivot_inv
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_cmpts_grp
+      parentName: thor_rig_v017:spine_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_asset
+      parentName: thor_rig_v017:spine_cmpts_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_cmpts_grp
+      parentName: thor_rig_v017:spine_ik_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_start_bind
+      parentName: thor_rig_v017:spine_ik_cmpts_grp
+      position: {x: -0, y: 1.0292495, z: 0.007920722}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_end_bind
+      parentName: thor_rig_v017:spine_ik_cmpts_grp
+      position: {x: -0, y: 1.3012522, z: 0.036396004}
+      rotation: {x: 0.053185247, y: -0, z: -0, w: 0.9985847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_mid_bind
+      parentName: thor_rig_v017:spine_ik_cmpts_grp
+      position: {x: -0, y: 1.1767362, z: 0.037957337}
+      rotation: {x: 0.103055924, y: -0, z: -0, w: 0.9946756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_crv
+      parentName: thor_rig_v017:spine_ik_cmpts_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_ik_output
+      parentName: thor_rig_v017:spine_ik_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_volume_asset
+      parentName: thor_rig_v017:spine_cmpts_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_volume_output
+      parentName: thor_rig_v017:spine_volume_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_volume_input
+      parentName: thor_rig_v017:spine_volume_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_fkik_asset
+      parentName: thor_rig_v017:spine_cmpts_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_fkik_rig_grp
+      parentName: thor_rig_v017:spine_fkik_asset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_fkik_output
+      parentName: thor_rig_v017:spine_fkik_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_output
+      parentName: thor_rig_v017:spine_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_fk_rig_grp
+      parentName: thor_rig_v017:spine_rig_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_fk_sub_01_buf
+      parentName: thor_rig_v017:spine_fk_rig_grp
+      position: {x: -0, y: 1.0292495, z: 0.058104064}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_fk_sub_01_pivot
+      parentName: thor_rig_v017:spine_fk_sub_01_buf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_fk_sub_01_ctrl
+      parentName: thor_rig_v017:spine_fk_sub_01_pivot
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:root_adj_plane
+      parentName: thor_rig_v017:rig_extra_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:root_adj_ctrl
+      parentName: thor_rig_v017:root_adj_plane
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_prop_grp
+      parentName: thor_rig_v017:rig_extra_2
+      position: {x: 0.9919262, y: 0.6583909, z: -0.6161009}
+      rotation: {x: -0.47465882, y: 0.69715095, z: 0.36187893, w: 0.39714396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_prop_buf
+      parentName: thor_rig_v017:L_hand_prop_grp
+      position: {x: -0.8616249, y: 1.4061351, z: -0.06222952}
+      rotation: {x: 0.7109535, y: 0, z: 0, w: 0.703239}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_prop_pivot
+      parentName: thor_rig_v017:L_hand_prop_buf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_prop_ctrl
+      parentName: thor_rig_v017:L_hand_prop_pivot
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:L_hand_prop_pivot_inv
+      parentName: thor_rig_v017:L_hand_prop_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_prop_grp
+      parentName: thor_rig_v017:rig_extra_2
+      position: {x: -0.91499084, y: 0.53583235, z: -0.64777887}
+      rotation: {x: 0.5511949, y: 0.7706883, z: 0.30082273, w: -0.10830243}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_prop_buf
+      parentName: thor_rig_v017:R_hand_prop_grp
+      position: {x: 0.8616249, y: 1.4061351, z: -0.06222952}
+      rotation: {x: -0.703239, y: 0, z: -0, w: 0.7109535}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_prop_pivot
+      parentName: thor_rig_v017:R_hand_prop_buf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: -1, z: -1}
+    - name: thor_rig_v017:R_hand_prop_ctrl
+      parentName: thor_rig_v017:R_hand_prop_pivot
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:R_hand_prop_pivot_inv
+      parentName: thor_rig_v017:R_hand_prop_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: -1}
+    - name: thor_rig_v017:export_grp
+      parentName: Thor_LowQuickAttack(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:render_grp
+      parentName: thor_rig_v017:export_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:thor_geo_GRP
+      parentName: thor_rig_v017:render_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:skin_geo_grp
+      parentName: thor_rig_v017:thor_geo_GRP
+      position: {x: 0.000000019073486, y: 1.497019, z: -0.04195486}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:skin_geo
+      parentName: thor_rig_v017:skin_geo_grp
+      position: {x: -0.000000019073486, y: -1.497019, z: 0.04195486}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:eyeballs_geo
+      parentName: thor_rig_v017:thor_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:eye_corners_geo
+      parentName: thor_rig_v017:thor_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:eyelashes_geo
+      parentName: thor_rig_v017:thor_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:mouth_GRP
+      parentName: thor_rig_v017:thor_geo_GRP
+      position: {x: -0, y: 1.6609946, z: 0.051414922}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:tongue_geo
+      parentName: thor_rig_v017:mouth_GRP
+      position: {x: -0, y: -1.6609946, z: -0.051414922}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:uprGum_geo
+      parentName: thor_rig_v017:mouth_GRP
+      position: {x: -0, y: -1.6609946, z: -0.051414922}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:lwrTeeth_geo
+      parentName: thor_rig_v017:mouth_GRP
+      position: {x: -0, y: -1.6609946, z: -0.051414922}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:uprTeeth_geo
+      parentName: thor_rig_v017:mouth_GRP
+      position: {x: -0, y: -1.6609946, z: -0.051414922}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:lwrGum_geo
+      parentName: thor_rig_v017:mouth_GRP
+      position: {x: -0, y: -1.6609946, z: -0.051414922}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:cloth_geo
+      parentName: thor_rig_v017:thor_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:torso_geo
+      parentName: thor_rig_v017:thor_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:legs_geo
+      parentName: thor_rig_v017:thor_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:gauntlets
+      parentName: thor_rig_v017:thor_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:nails_geo
+      parentName: thor_rig_v017:thor_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:hands_geo
+      parentName: thor_rig_v017:thor_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:eyebrows_geo
+      parentName: thor_rig_v017:thor_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:hair_geo
+      parentName: thor_rig_v017:thor_geo_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:bind_grp
+      parentName: thor_rig_v017:export_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:bind_cmpts
+      parentName: thor_rig_v017:bind_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:face_bind_cmpts
+      parentName: thor_rig_v017:bind_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:root
+      parentName: thor_rig_v017:bind_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:ik_foot_root
+      parentName: thor_rig_v017:root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:ik_foot_l
+      parentName: thor_rig_v017:ik_foot_root
+      position: {x: -0.20395187, y: 0.12677646, z: 0.18665224}
+      rotation: {x: 0.52210516, y: 0.52210516, z: -0.47687125, w: -0.47687125}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:ik_foot_r
+      parentName: thor_rig_v017:ik_foot_root
+      position: {x: 0.21789934, y: 0.13620438, z: -0.09085162}
+      rotation: {x: 0.47687128, y: -0.47687128, z: -0.5221052, w: 0.5221052}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:ik_hand_root
+      parentName: thor_rig_v017:root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:ik_hand_prop_r
+      parentName: thor_rig_v017:ik_hand_root
+      position: {x: 0.043173276, y: 1.4726688, z: 0.31541625}
+      rotation: {x: 0.4680364, y: 0.33637327, z: 0.75584906, w: 0.31062382}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:ik_hand_l
+      parentName: thor_rig_v017:ik_hand_prop_r
+      position: {x: -0.07321241, y: 0.09025104, z: -0.31819928}
+      rotation: {x: -0.3415063, y: 0.04923507, z: 0.9082592, w: -0.23667401}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:ik_hand_r
+      parentName: thor_rig_v017:ik_hand_prop_r
+      position: {x: -0.13898534, y: 7.105427e-17, z: 0.051260732}
+      rotation: {x: 0.000000010536712, y: 2.220446e-16, z: -1.3877789e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:pelvis
+      parentName: thor_rig_v017:root
+      position: {x: 0, y: 1.0114547, z: 0.007920722}
+      rotation: {x: 3.469447e-18, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_01
+      parentName: thor_rig_v017:pelvis
+      position: {x: -0, y: 0.0029474378, z: 0.00059757254}
+      rotation: {x: -0.000000017462298, y: -0, z: -0, w: 1}
+      scale: {x: 0.9970663, y: 0.99999994, z: 0.9970661}
+    - name: thor_rig_v017:spine_02
+      parentName: thor_rig_v017:spine_01
+      position: {x: -0, y: 0.14750661, z: 0.0002624157}
+      rotation: {x: 0.000000005820766, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:spine_03
+      parentName: thor_rig_v017:spine_02
+      position: {x: -0, y: 0.12155097, z: -0.027135331}
+      rotation: {x: 0.000000017462298, y: -0, z: -0, w: 1}
+      scale: {x: 1.0029423, y: 1, z: 1.0029427}
+    - name: thor_rig_v017:spine_04
+      parentName: thor_rig_v017:spine_03
+      position: {x: -0, y: 1.4210854e-16, z: -7.105427e-17}
+      rotation: {x: -0.000000005820765, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000044, z: 0.99999535}
+    - name: thor_rig_v017:neck_01
+      parentName: thor_rig_v017:spine_04
+      position: {x: -0, y: 0.2356212, z: -0.09036183}
+      rotation: {x: 0.0054549198, y: -0, z: -0, w: 0.99998516}
+      scale: {x: 1, y: 1.0000011, z: 1.0000006}
+    - name: thor_rig_v017:neck_02
+      parentName: thor_rig_v017:neck_01
+      position: {x: -0, y: 0.06329979, z: 0.02513203}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000007}
+    - name: thor_rig_v017:head
+      parentName: thor_rig_v017:neck_02
+      position: {x: -0, y: 0.06329979, z: 0.02513203}
+      rotation: {x: -0.0000000013969838, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000008}
+    - name: thor_rig_v017:head_upper
+      parentName: thor_rig_v017:head
+      position: {x: -0, y: 0.03901376, z: -0.00042565275}
+      rotation: {x: -0.0054549184, y: -0, z: -0, w: 0.99998516}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: thor_rig_v017:ear_root_r
+      parentName: thor_rig_v017:head_upper
+      position: {x: 0.0592421, y: 0.003332182, z: -0.00058017054}
+      rotation: {x: 1, y: -2.3665309e-15, z: 1.2605968e-17, w: 0}
+      scale: {x: 1, y: 1.0000033, z: 1.0000032}
+    - name: thor_rig_v017:ear_r
+      parentName: thor_rig_v017:ear_root_r
+      position: {x: -9.93654e-12, y: -0.000000020176937, z: -1.5990523e-10}
+      rotation: {x: -0, y: -1.2605968e-17, z: -2.3665309e-15, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000008}
+    - name: thor_rig_v017:earlobe_r
+      parentName: thor_rig_v017:ear_root_r
+      position: {x: 0.006036014, y: 0.02207363, z: -0.003859088}
+      rotation: {x: 0.022215253, y: -0.5052082, z: 0.010843963, w: 0.8626433}
+      scale: {x: 0.99999994, y: 0.99999946, z: 1}
+    - name: thor_rig_v017:ear_root_l
+      parentName: thor_rig_v017:head_upper
+      position: {x: -0.0592421, y: 0.003332182, z: -0.00058017054}
+      rotation: {x: -0, y: 1.2605968e-17, z: 2.3665309e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:ear_l
+      parentName: thor_rig_v017:ear_root_l
+      position: {x: 9.93654e-12, y: 0.000000020176937, z: 1.5990523e-10}
+      rotation: {x: -0, y: -1.2605968e-17, z: -2.3665309e-15, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1.0000004}
+    - name: thor_rig_v017:earlobe_l
+      parentName: thor_rig_v017:ear_root_l
+      position: {x: -0.006036014, y: -0.02207363, z: 0.003859088}
+      rotation: {x: 0.022215253, y: -0.5052082, z: 0.010843963, w: 0.8626433}
+      scale: {x: 0.9999999, y: 1.0000011, z: 0.99999976}
+    - name: thor_rig_v017:eyebrows_center
+      parentName: thor_rig_v017:head_upper
+      position: {x: -6.661338e-17, y: 0.037122913, z: 0.08080557}
+      rotation: {x: 0.016214821, y: -0, z: -0, w: 0.9998685}
+      scale: {x: 1, y: 1, z: 1.0000017}
+    - name: thor_rig_v017:cheekLift_r
+      parentName: thor_rig_v017:head_upper
+      position: {x: 0.041047085, y: 0.008604175, z: 0.059292115}
+      rotation: {x: 0.861136, y: 0.01647442, z: -0.45040178, w: -0.23518427}
+      scale: {x: 1.000002, y: 1.0000021, z: 1.0000011}
+    - name: thor_rig_v017:cheekLift_l
+      parentName: thor_rig_v017:head_upper
+      position: {x: -0.041047085, y: 0.008604175, z: 0.059292115}
+      rotation: {x: 0.2351842, y: -0.45040178, z: -0.01647448, w: 0.861136}
+      scale: {x: 1.000001, y: 0.9999997, z: 1.0000004}
+    - name: thor_rig_v017:inner_cheek_l
+      parentName: thor_rig_v017:head_upper
+      position: {x: -0.019505568, y: 0.0083082095, z: 0.07787466}
+      rotation: {x: -0.24878709, y: -0.17402588, z: 0.19235493, w: 0.9331771}
+      scale: {x: 0.9999998, y: 1.0000007, z: 1.0000011}
+    - name: thor_rig_v017:inner_cheek_r
+      parentName: thor_rig_v017:head_upper
+      position: {x: 0.019505568, y: 0.0083082095, z: 0.07787466}
+      rotation: {x: 0.9331771, y: -0.1923549, z: -0.17402585, w: 0.24878712}
+      scale: {x: 0.9999998, y: 1.0000006, z: 1.0000013}
+    - name: thor_rig_v017:eye_r
+      parentName: thor_rig_v017:head_upper
+      position: {x: 0.02481654, y: 0.02447946, z: 0.054633424}
+      rotation: {x: 0.9901716, y: 0.00000813941, z: -0.13985814, w: 0.000057625584}
+      scale: {x: 0.99999976, y: 1.0000021, z: 1.0000029}
+    - name: thor_rig_v017:eye_inner_socket_r
+      parentName: thor_rig_v017:eye_r
+      position: {x: -0.018101236, y: 0.0034702232, z: -0.014942681}
+      rotation: {x: -0.13972995, y: -0.22102512, z: -0.066527754, w: 0.962911}
+      scale: {x: 1.0000064, y: 1.0000054, z: 0.9999997}
+    - name: thor_rig_v017:eye_lower_socket_1_r
+      parentName: thor_rig_v017:eye_r
+      position: {x: -0.010179244, y: 0.0106684845, z: -0.016216004}
+      rotation: {x: -0.31561777, y: -0.045577757, z: 0.14352168, w: 0.93686163}
+      scale: {x: 1.0000002, y: 1.0000069, z: 1.0000019}
+    - name: thor_rig_v017:eye_lower_socket_2_r
+      parentName: thor_rig_v017:eye_r
+      position: {x: 0.0047077495, y: 0.012160346, z: -0.015646065}
+      rotation: {x: -0.28965887, y: -0.10022434, z: -0.112810224, w: 0.9451596}
+      scale: {x: 1.0000036, y: 1.000001, z: 1.000002}
+    - name: thor_rig_v017:eye_lower_socket_3_r
+      parentName: thor_rig_v017:eye_r
+      position: {x: 0.015582089, y: 0.006909838, z: -0.011926989}
+      rotation: {x: -0.23286852, y: -0.15166295, z: -0.29110754, w: 0.9154381}
+      scale: {x: 1.0000049, y: 1.0000005, z: 1.0000019}
+    - name: thor_rig_v017:eye_outer_socket_r
+      parentName: thor_rig_v017:eye_r
+      position: {x: 0.022670457, y: -0.00025000365, z: -0.005582233}
+      rotation: {x: 0.00000026628913, y: -0.3662441, z: -0.00000014716625, w: 0.9305188}
+      scale: {x: 1.0000087, y: 1.0000023, z: 0.9999949}
+    - name: thor_rig_v017:eye_upper_socket_1_r
+      parentName: thor_rig_v017:eye_r
+      position: {x: -0.011176473, y: -0.0059715756, z: -0.016280148}
+      rotation: {x: 0.17655511, y: -0.0021831763, z: -0.20932117, w: 0.9617735}
+      scale: {x: 0.9999997, y: 1.000006, z: 1.0000014}
+    - name: thor_rig_v017:eye_upper_socket_2_r
+      parentName: thor_rig_v017:eye_r
+      position: {x: 0.0025378151, y: -0.0073452774, z: -0.019031715}
+      rotation: {x: 0.20185119, y: 0.0015886223, z: -0.004771631, w: 0.9794034}
+      scale: {x: 1, y: 1.0000072, z: 1.0000055}
+    - name: thor_rig_v017:eye_upper_socket_3_r
+      parentName: thor_rig_v017:eye_r
+      position: {x: 0.012310331, y: -0.00757124, z: -0.013812748}
+      rotation: {x: 0.0978649, y: -0.15867278, z: 0.17337753, w: 0.96704996}
+      scale: {x: 1.0000055, y: 1.0000031, z: 0.9999992}
+    - name: thor_rig_v017:eyeball_r
+      parentName: thor_rig_v017:eye_r
+      position: {x: 3.8857806e-18, y: -2.842171e-16, z: -3.5527136e-17}
+      rotation: {x: 4.3655746e-11, y: 0.000026658177, z: -3.637979e-12, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000008}
+    - name: thor_rig_v017:eye_upper_eyelid_ori_0_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -0.011663983, y: 0.0021656624, z: -0.0105706025}
+      rotation: {x: -0.38996834, y: -0.123677984, z: -0.8048167, w: -0.42999834}
+      scale: {x: 1.0000013, y: 0.9999991, z: 1.0000073}
+    - name: thor_rig_v017:eye_upper_eyelid_ori_1_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -0.008797058, y: -0.0012783888, z: -0.013170183}
+      rotation: {x: -0.27301064, y: -0.10504689, z: -0.93257993, w: -0.21148315}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000076}
+    - name: thor_rig_v017:eye_upper_eyelid_ori_2_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -0.0048636165, y: -0.0025406822, z: -0.014911954}
+      rotation: {x: -0.1515919, y: -0.088208064, z: -0.98347646, w: -0.044871036}
+      scale: {x: 1.0000039, y: 1.0000008, z: 1.0000039}
+    - name: thor_rig_v017:eye_upper_eyelid_ori_3_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -0.0004036207, y: -0.0027198705, z: -0.015649779}
+      rotation: {x: -0.012844561, y: -0.08589748, z: -0.9962205, w: 0.0011074555}
+      scale: {x: 1.0000021, y: 1.000001, z: 1.0000039}
+    - name: thor_rig_v017:eye_upper_eyelid_ori_4_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: 0.0042430186, y: -0.002673486, z: -0.015077316}
+      rotation: {x: 0.1350745, y: -0.08551093, z: -0.9871365, w: 0.0020988379}
+      scale: {x: 1.0000042, y: 1.0000005, z: 1}
+    - name: thor_rig_v017:eye_upper_eyelid_ori_5_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: 0.00896575, y: -0.0023481639, z: -0.012906496}
+      rotation: {x: 0.29438114, y: -0.0848932, z: -0.95162183, w: 0.023424698}
+      scale: {x: 1.0000079, y: 1.0000017, z: 1.0000011}
+    - name: thor_rig_v017:eye_upper_eyelid_ori_6_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: 0.013327596, y: -0.0014604646, z: -0.008527511}
+      rotation: {x: -0.47419688, y: 0.08245837, z: 0.8748087, w: -0.05520574}
+      scale: {x: 1.0000055, y: 1.0000007, z: 0.9999991}
+    - name: thor_rig_v017:eye_upper_eyelid_nml_0_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -0.011781801, y: 0.0021875377, z: -0.010677376}
+      rotation: {x: 0.062446393, y: 0.40431672, z: -0.027682364, w: 0.91206485}
+      scale: {x: 0.9999966, y: 1.0000052, z: 1.000009}
+    - name: thor_rig_v017:eye_upper_eyelid_nml_1_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -0.008885917, y: -0.0012913017, z: -0.013303214}
+      rotation: {x: -0.038527437, y: 0.28997466, z: 0.011683885, w: 0.9561872}
+      scale: {x: 0.99999666, y: 1.0000067, z: 1.0000105}
+    - name: thor_rig_v017:eye_upper_eyelid_nml_2_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -0.0049127443, y: -0.0025663455, z: -0.01506258}
+      rotation: {x: -0.079212345, y: 0.15648057, z: 0.01259138, w: 0.98441905}
+      scale: {x: 0.9999977, y: 1.0000043, z: 1.000007}
+    - name: thor_rig_v017:eye_upper_eyelid_nml_3_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -0.00040769766, y: -0.0027473436, z: -0.015807858}
+      rotation: {x: -0.08589747, y: 0.012844558, z: 0.0011074981, w: 0.9962206}
+      scale: {x: 0.99999917, y: 1.0000035, z: 1.0000045}
+    - name: thor_rig_v017:eye_upper_eyelid_nml_4_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: 0.004285877, y: -0.0027004909, z: -0.015229613}
+      rotation: {x: -0.08363596, y: -0.13624342, z: -0.0115441, w: 0.9870712}
+      scale: {x: 1.0000025, y: 1.0000035, z: 1.000002}
+    - name: thor_rig_v017:eye_upper_eyelid_nml_5_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: 0.009056314, y: -0.0023718826, z: -0.013036865}
+      rotation: {x: -0.070706174, y: -0.298107, z: -0.022148859, w: 0.9516524}
+      scale: {x: 1.0000042, y: 1.0000042, z: 0.9999984}
+    - name: thor_rig_v017:eye_upper_eyelid_nml_6_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: 0.0134622175, y: -0.0014752168, z: -0.008613647}
+      rotation: {x: -0.04035611, y: -0.47961795, z: -0.022088517, w: 0.87627053}
+      scale: {x: 1.0000049, y: 1.000005, z: 1.0000002}
+    - name: thor_rig_v017:eye_lower_eyelid_ori_0_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -0.011663983, y: 0.0021656624, z: -0.0105706025}
+      rotation: {x: -0.36981016, y: 0.17496262, z: -0.88220704, w: 0.23310792}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000077}
+    - name: thor_rig_v017:eye_lower_eyelid_ori_1_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -0.006714619, y: 0.0053264615, z: -0.013379794}
+      rotation: {x: -0.19179097, y: 0.20540194, z: -0.949063, w: 0.14249825}
+      scale: {x: 1.0000018, y: 1.0000001, z: 1.0000064}
+    - name: thor_rig_v017:eye_lower_eyelid_ori_2_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -0.0026804996, y: 0.0064414674, z: -0.014275806}
+      rotation: {x: -0.07781218, y: 0.21148029, z: -0.9734302, w: 0.04068207}
+      scale: {x: 1.0000019, y: 1.0000008, z: 1.0000033}
+    - name: thor_rig_v017:eye_lower_eyelid_ori_3_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: 0.0009051104, y: 0.006597898, z: -0.014426529}
+      rotation: {x: 0.030608237, y: 0.21236506, z: -0.9766883, w: 0.0066552707}
+      scale: {x: 1.0000043, y: 1.0000001, z: 1.0000039}
+    - name: thor_rig_v017:eye_lower_eyelid_ori_4_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: 0.004734139, y: 0.006318168, z: -0.013789303}
+      rotation: {x: 0.14108045, y: 0.21490426, z: -0.9645269, w: -0.060002245}
+      scale: {x: 1.0000077, y: 1.0000005, z: 1.0000029}
+    - name: thor_rig_v017:eye_lower_eyelid_ori_5_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: 0.009126451, y: 0.0043002996, z: -0.012275648}
+      rotation: {x: 0.2599021, y: 0.21487007, z: -0.91204333, w: -0.23336403}
+      scale: {x: 1.0000046, y: 1.000002, z: 0.9999992}
+    - name: thor_rig_v017:eye_lower_eyelid_ori_6_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: 0.013327596, y: -0.0014604646, z: -0.008527511}
+      rotation: {x: -0.44870678, y: -0.17413881, z: 0.7777598, w: 0.40426195}
+      scale: {x: 1.0000036, y: 1.0000027, z: 0.999999}
+    - name: thor_rig_v017:eye_lower_eyelid_nml_0_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -0.011781801, y: 0.0021875377, z: -0.010677376}
+      rotation: {x: 0.062446393, y: 0.40431672, z: -0.027682364, w: 0.91206485}
+      scale: {x: 0.9999966, y: 1.0000052, z: 1.000009}
+    - name: thor_rig_v017:eye_lower_eyelid_nml_1_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -0.006782444, y: 0.005380264, z: -0.013514944}
+      rotation: {x: 0.16550893, y: 0.22711347, z: -0.039200433, w: 0.9589002}
+      scale: {x: 0.99999684, y: 1.0000033, z: 1.0000062}
+    - name: thor_rig_v017:eye_lower_eyelid_nml_2_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -0.0027075754, y: 0.0065065324, z: -0.0144200055}
+      rotation: {x: 0.20630018, y: 0.09065808, z: -0.019200243, w: 0.97409075}
+      scale: {x: 0.9999989, y: 1.0000067, z: 1.0000063}
+    - name: thor_rig_v017:eye_lower_eyelid_nml_3_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: 0.0009142529, y: 0.006664543, z: -0.014572251}
+      rotation: {x: 0.21236503, y: -0.030608205, z: 0.0066552684, w: 0.9766883}
+      scale: {x: 1.0000007, y: 1.0000033, z: 1.0000039}
+    - name: thor_rig_v017:eye_lower_eyelid_nml_4_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: 0.0047819586, y: 0.0063819876, z: -0.013928589}
+      rotation: {x: 0.20027587, y: -0.16117433, z: 0.0334219, w: 0.9658134}
+      scale: {x: 1.0000023, y: 1.0000015, z: 0.9999998}
+    - name: thor_rig_v017:eye_lower_eyelid_nml_5_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: 0.009218637, y: 0.004343737, z: -0.012399645}
+      rotation: {x: 0.12967992, y: -0.31128976, z: 0.04292435, w: 0.9404463}
+      scale: {x: 1.0000054, y: 1.0000037, z: 0.9999997}
+    - name: thor_rig_v017:eye_lower_eyelid_nml_6_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: 0.0134622175, y: -0.0014752168, z: -0.008613647}
+      rotation: {x: -0.04035611, y: -0.47961795, z: -0.022088517, w: 0.87627053}
+      scale: {x: 1.0000049, y: 1.000005, z: 1.0000002}
+    - name: thor_rig_v017:eye_pupil_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -7.216449e-18, y: 2.842171e-16, z: 3.5527136e-17}
+      rotation: {x: -3.637986e-11, y: 0.000000044703484, z: 2.7275122e-12, w: 1}
+      scale: {x: 0.16708806, y: 0.1670885, z: 0.98594576}
+    - name: thor_rig_v017:eye_iris_r
+      parentName: thor_rig_v017:eyeball_r
+      position: {x: -7.216449e-18, y: 2.842171e-16, z: 3.5527136e-17}
+      rotation: {x: -2.619345e-10, y: 0.000000044699842, z: 1.812005e-12, w: 1}
+      scale: {x: 0.34965196, y: 0.3496527, z: 0.9368828}
+    - name: thor_rig_v017:mouth_upper_teeth
+      parentName: thor_rig_v017:head_upper
+      position: {x: -2.0122791e-17, y: -0.028586458, z: 0.036981773}
+      rotation: {x: -0.0037935968, y: -0, z: -0, w: 0.9999928}
+      scale: {x: 1, y: 0.9999997, z: 0.99999994}
+    - name: thor_rig_v017:eyebrow_main_l
+      parentName: thor_rig_v017:head_upper
+      position: {x: -0.034412272, y: 0.04062174, z: 0.07255381}
+      rotation: {x: 0.038733598, y: -0.33648393, z: 0.040960055, w: 0.94000036}
+      scale: {x: 0.9999998, y: 0.99999946, z: 1.000001}
+    - name: thor_rig_v017:eyebrow_inner_l
+      parentName: thor_rig_v017:eyebrow_main_l
+      position: {x: 0.024405777, y: -0.0054412642, z: -0.0073572868}
+      rotation: {x: -0.038733598, y: 0.3364839, z: -0.04096005, w: 0.9400003}
+      scale: {x: 0.9999918, y: 0.9999986, z: 1.0000086}
+    - name: thor_rig_v017:eyebrow_inner_ori_l
+      parentName: thor_rig_v017:eyebrow_inner_l
+      position: {x: 8.881784e-18, y: -2.842171e-16, z: -3.5527136e-17}
+      rotation: {x: -0.07504363, y: -0.099788085, z: 0.018910162, w: 0.9919946}
+      scale: {x: 1.0000015, y: 1.0000001, z: 0.99999815}
+    - name: thor_rig_v017:eyebrow_innerMid_l
+      parentName: thor_rig_v017:eyebrow_main_l
+      position: {x: 0.013568842, y: -0.0010529562, z: -0.0032962821}
+      rotation: {x: -0.038733598, y: 0.3364839, z: -0.04096005, w: 0.9400003}
+      scale: {x: 1.0000144, y: 1.0000021, z: 0.9999851}
+    - name: thor_rig_v017:eyebrow_innerMid_ori_l
+      parentName: thor_rig_v017:eyebrow_innerMid_l
+      position: {x: 1.3322676e-17, y: -2.842171e-16, z: -5.3290704e-17}
+      rotation: {x: -0.07415989, y: -0.14240457, z: 0.02212352, w: 0.9867785}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999998}
+    - name: thor_rig_v017:eyebrow_outerMid_l
+      parentName: thor_rig_v017:eyebrow_main_l
+      position: {x: -0.012348888, y: 0.0007231844, z: -0.00024222977}
+      rotation: {x: -0.038733598, y: 0.3364839, z: -0.04096005, w: 0.9400003}
+      scale: {x: 1.0000144, y: 1.0000021, z: 0.9999851}
+    - name: thor_rig_v017:eyebrow_outerMid_ori_l
+      parentName: thor_rig_v017:eyebrow_outerMid_l
+      position: {x: 3.5527136e-17, y: -2.842171e-16, z: -5.3290704e-17}
+      rotation: {x: 0.022546537, y: -0.39909697, z: 0.017150953, w: 0.916471}
+      scale: {x: 1.0000004, y: 1, z: 0.9999999}
+    - name: thor_rig_v017:eyebrow_outer_l
+      parentName: thor_rig_v017:eyebrow_main_l
+      position: {x: -0.023855388, y: -0.0041809506, z: -0.0023459634}
+      rotation: {x: -0.038733598, y: 0.3364839, z: -0.04096005, w: 0.9400003}
+      scale: {x: 1.0000144, y: 1.0000021, z: 0.9999851}
+    - name: thor_rig_v017:eyebrow_outer_ori_l
+      parentName: thor_rig_v017:eyebrow_outer_l
+      position: {x: 2.6645352e-17, y: 0, z: -1.7763568e-17}
+      rotation: {x: 0.024539638, y: -0.51210535, z: 0.014153007, w: 0.85845536}
+      scale: {x: 1.0000002, y: 1, z: 0.99999994}
+    - name: thor_rig_v017:eyebrow_mid_l
+      parentName: thor_rig_v017:eyebrow_main_l
+      position: {x: 5.3290704e-17, y: 0, z: 8.8817837e-17}
+      rotation: {x: -0.038733598, y: 0.3364839, z: -0.04096005, w: 0.9400003}
+      scale: {x: 0.9999918, y: 0.9999986, z: 1.0000086}
+    - name: thor_rig_v017:eyebrow_mid_ori_l
+      parentName: thor_rig_v017:eyebrow_mid_l
+      position: {x: 1.3322676e-17, y: -2.842171e-16, z: -5.3290704e-17}
+      rotation: {x: 0.019464027, y: -0.2450635, z: 0.020582845, w: 0.9690931}
+      scale: {x: 1.0000008, y: 0.99999994, z: 0.9999986}
+    - name: thor_rig_v017:eyebrow_main_r
+      parentName: thor_rig_v017:head_upper
+      position: {x: 0.034412272, y: 0.04062174, z: 0.07255381}
+      rotation: {x: 0.03125956, y: -0.15185857, z: -0.007904887, w: 0.98787624}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000011}
+    - name: thor_rig_v017:eyebrow_mid_r
+      parentName: thor_rig_v017:eyebrow_main_r
+      position: {x: -6.217249e-17, y: 5.684342e-16, z: 3.4194868e-16}
+      rotation: {x: -0.03125956, y: 0.15185854, z: 0.007904887, w: 0.9878762}
+      scale: {x: 0.9999974, y: 0.9999992, z: 1.0000014}
+    - name: thor_rig_v017:eyebrow_mid_ori_r
+      parentName: thor_rig_v017:eyebrow_mid_r
+      position: {x: 1.7763568e-17, y: -2.842171e-16, z: -1.7763568e-17}
+      rotation: {x: 0.9690931, y: -0.02058284, z: -0.2450635, w: -0.019464027}
+      scale: {x: 1.0000014, y: 1.0000005, z: 0.9999995}
+    - name: thor_rig_v017:eyebrow_inner_r
+      parentName: thor_rig_v017:eyebrow_main_r
+      position: {x: -0.01991774, y: -0.0029487126, z: 0.016551968}
+      rotation: {x: -0.03125956, y: 0.15185854, z: 0.007904887, w: 0.9878762}
+      scale: {x: 0.9999984, y: 0.99999946, z: 1.0000011}
+    - name: thor_rig_v017:eyebrow_inner_ori_r
+      parentName: thor_rig_v017:eyebrow_inner_r
+      position: {x: 1.7763568e-17, y: -5.684342e-16, z: -3.5527136e-17}
+      rotation: {x: 0.9919946, y: -0.018910157, z: -0.09978807, w: 0.07504364}
+      scale: {x: 1.0000011, y: 1.0000014, z: 0.99999934}
+    - name: thor_rig_v017:eyebrow_innerMid_r
+      parentName: thor_rig_v017:eyebrow_main_r
+      position: {x: -0.01024021, y: 0.000285956, z: 0.009546937}
+      rotation: {x: -0.03125956, y: 0.15185854, z: 0.007904887, w: 0.9878762}
+      scale: {x: 0.9999974, y: 0.9999992, z: 1.0000014}
+    - name: thor_rig_v017:eyebrow_innerMid_ori_r
+      parentName: thor_rig_v017:eyebrow_innerMid_r
+      position: {x: 1.7763568e-17, y: 0, z: 0}
+      rotation: {x: 0.9867785, y: -0.022123536, z: -0.14240462, w: 0.074159876}
+      scale: {x: 1.000001, y: 1.000001, z: 0.9999997}
+    - name: thor_rig_v017:eyebrow_outer_r
+      parentName: thor_rig_v017:eyebrow_main_r
+      position: {x: 0.010692264, y: -0.0061237523, z: -0.020981861}
+      rotation: {x: -0.03125956, y: 0.15185854, z: 0.007904887, w: 0.9878762}
+      scale: {x: 0.999997, y: 0.9999992, z: 1.000002}
+    - name: thor_rig_v017:eyebrow_outer_ori_r
+      parentName: thor_rig_v017:eyebrow_outer_r
+      position: {x: 8.881784e-18, y: 0, z: -1.7763568e-17}
+      rotation: {x: 0.8584554, y: -0.014153011, z: -0.5121053, w: -0.024539635}
+      scale: {x: 1.000001, y: 0.99999994, z: 0.9999994}
+    - name: thor_rig_v017:eyebrow_outerMid_r
+      parentName: thor_rig_v017:eyebrow_main_r
+      position: {x: 0.0065963045, y: -0.00034220653, z: -0.010461758}
+      rotation: {x: -0.03125956, y: 0.15185854, z: 0.007904887, w: 0.9878762}
+      scale: {x: 0.99999607, y: 0.999999, z: 1.0000027}
+    - name: thor_rig_v017:eyebrow_outerMid_ori_r
+      parentName: thor_rig_v017:eyebrow_outerMid_r
+      position: {x: 1.7763568e-17, y: 0, z: -1.7763568e-17}
+      rotation: {x: 0.916471, y: -0.017150955, z: -0.39909688, w: -0.022546548}
+      scale: {x: 1.0000007, y: 1.0000015, z: 1.0000011}
+    - name: thor_rig_v017:eye_l
+      parentName: thor_rig_v017:head_upper
+      position: {x: -0.02481654, y: 0.02447946, z: 0.05463343}
+      rotation: {x: -0.000057625584, y: -0.13985814, z: -0.00000813941, w: 0.9901716}
+      scale: {x: 0.99999976, y: 1, z: 1.000001}
+    - name: thor_rig_v017:eye_upper_socket_1_l
+      parentName: thor_rig_v017:eye_l
+      position: {x: 0.011176473, y: 0.0059715756, z: 0.016280148}
+      rotation: {x: 0.17655511, y: -0.0021831691, z: -0.20932117, w: 0.9617735}
+      scale: {x: 1.0000013, y: 0.99999934, z: 1.0000008}
+    - name: thor_rig_v017:eye_upper_socket_2_l
+      parentName: thor_rig_v017:eye_l
+      position: {x: -0.0007357696, y: 0.009596664, z: 0.018236736}
+      rotation: {x: 0.20185119, y: 0.0015886128, z: -0.004771634, w: 0.9794033}
+      scale: {x: 1.0000012, y: 1, z: 1.0000005}
+    - name: thor_rig_v017:eye_upper_socket_3_l
+      parentName: thor_rig_v017:eye_l
+      position: {x: -0.012310331, y: 0.00757124, z: 0.013812748}
+      rotation: {x: 0.0978649, y: -0.15867284, z: 0.1733775, w: 0.96705}
+      scale: {x: 0.9999977, y: 1.0000011, z: 1.0000051}
+    - name: thor_rig_v017:eye_outer_socket_l
+      parentName: thor_rig_v017:eye_l
+      position: {x: -0.022670457, y: 0.00025000365, z: 0.005582233}
+      rotation: {x: 0.00000026617636, y: -0.3662441, z: -0.0000001471144, w: 0.93051887}
+      scale: {x: 0.9999968, y: 1.0000001, z: 1.0000082}
+    - name: thor_rig_v017:eye_lower_socket_3_l
+      parentName: thor_rig_v017:eye_l
+      position: {x: -0.015582089, y: -0.006909838, z: 0.011926989}
+      rotation: {x: -0.23286854, y: -0.15166296, z: -0.29110754, w: 0.9154381}
+      scale: {x: 0.9999972, y: 1.0000035, z: 1.000003}
+    - name: thor_rig_v017:eye_lower_socket_2_l
+      parentName: thor_rig_v017:eye_l
+      position: {x: -0.0047077495, y: -0.012160346, z: 0.015646065}
+      rotation: {x: -0.28965884, y: -0.1002243, z: -0.11281023, w: 0.9451596}
+      scale: {x: 0.99999845, y: 1.0000023, z: 1.000003}
+    - name: thor_rig_v017:eye_lower_socket_1_l
+      parentName: thor_rig_v017:eye_l
+      position: {x: 0.010179244, y: -0.0106684845, z: 0.016216004}
+      rotation: {x: -0.3156178, y: -0.045577735, z: 0.14352167, w: 0.93686163}
+      scale: {x: 1.0000015, y: 0.9999992, z: 1.0000033}
+    - name: thor_rig_v017:eye_inner_socket_l
+      parentName: thor_rig_v017:eye_l
+      position: {x: 0.018101236, y: -0.0034702232, z: 0.014942681}
+      rotation: {x: -0.13972993, y: -0.22102511, z: -0.06652778, w: 0.962911}
+      scale: {x: 0.9999969, y: 1.0000008, z: 1.0000056}
+    - name: thor_rig_v017:eyeball_l
+      parentName: thor_rig_v017:eye_l
+      position: {x: 2.220446e-18, y: -2.842171e-16, z: -1.7763568e-17}
+      rotation: {x: -2.1827873e-11, y: -0.00002670288, z: -9.094947e-13, w: 1}
+      scale: {x: 1.0000005, y: 1, z: 0.9999999}
+    - name: thor_rig_v017:eye_upper_eyelid_ori_0_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: 0.011900713, y: -0.002209413, z: 0.010782941}
+      rotation: {x: -0.1236865, y: 0.39001334, z: -0.42996457, w: 0.8048116}
+      scale: {x: 0.999999, y: 0.9999974, z: 1.0000029}
+    - name: thor_rig_v017:eye_upper_eyelid_ori_1_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: 0.008975809, y: 0.0013042147, z: 0.013435557}
+      rotation: {x: -0.10505128, y: 0.27304783, z: -0.21146643, w: 0.93257225}
+      scale: {x: 1.000005, y: 1.0000015, z: 0.99999344}
+    - name: thor_rig_v017:eye_upper_eyelid_ori_2_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: 0.004962859, y: 0.0025920093, z: 0.015212883}
+      rotation: {x: -0.08820934, y: 0.15162392, z: -0.044866778, w: 0.9834715}
+      scale: {x: 0.9999982, y: 0.99999934, z: 1.0000014}
+    - name: thor_rig_v017:eye_upper_eyelid_ori_3_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: 0.00041275777, y: 0.0027748172, z: 0.01596591}
+      rotation: {x: -0.08589744, y: 0.012875229, z: 0.0011100976, w: 0.9962202}
+      scale: {x: 1.0000007, y: 0.99999994, z: 0.9999996}
+    - name: thor_rig_v017:eye_upper_eyelid_ori_4_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -0.004327746, y: 0.0027274957, z: 0.015382187}
+      rotation: {x: -0.0855109, y: -0.13504261, z: 0.0021018665, w: 0.98714083}
+      scale: {x: 1.000002, y: 1, z: 0.99999785}
+    - name: thor_rig_v017:eye_upper_eyelid_ori_5_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -0.009145874, y: 0.0023956015, z: 0.013167931}
+      rotation: {x: -0.084893, y: -0.29434466, z: 0.023430184, w: 0.95163304}
+      scale: {x: 0.99999356, y: 1.0000001, z: 1.0000072}
+    - name: thor_rig_v017:eye_upper_eyelid_ori_6_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -0.013595957, y: 0.001489969, z: 0.008701164}
+      rotation: {x: -0.08245871, y: -0.47415197, z: 0.055215728, w: 0.87483233}
+      scale: {x: 0.9999953, y: 1.0000011, z: 1.0000085}
+    - name: thor_rig_v017:eye_upper_eyelid_nml_0_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: 0.011782885, y: -0.0021875377, z: 0.010676179}
+      rotation: {x: 0.062444977, y: 0.40436292, z: -0.027685536, w: 0.9120443}
+      scale: {x: 0.9999957, y: 1.0000005, z: 1.0000027}
+    - name: thor_rig_v017:eye_upper_eyelid_nml_1_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: 0.00888694, y: 0.0012913017, z: 0.013302531}
+      rotation: {x: -0.03852699, y: 0.29001135, z: 0.011685362, w: 0.956176}
+      scale: {x: 1.0000075, y: 0.9999998, z: 0.99999374}
+    - name: thor_rig_v017:eye_upper_eyelid_nml_2_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: 0.004913722, y: 0.0025663455, z: 0.01506226}
+      rotation: {x: -0.07921199, y: 0.15651247, z: 0.012593955, w: 0.98441386}
+      scale: {x: 1.0000046, y: 0.99999887, z: 0.99999547}
+    - name: thor_rig_v017:eye_upper_eyelid_nml_3_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: 0.00040867107, y: 0.0027473436, z: 0.015807834}
+      rotation: {x: -0.08589745, y: 0.012875185, z: 0.0011101471, w: 0.9962202}
+      scale: {x: 1.000001, y: 0.9999992, z: 1.0000001}
+    - name: thor_rig_v017:eye_upper_eyelid_nml_4_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -0.0042848974, y: 0.0027004909, z: 0.015229889}
+      rotation: {x: -0.083636336, y: -0.13621171, z: -0.011541413, w: 0.9870756}
+      scale: {x: 0.9999961, y: 1.0000006, z: 1.0000048}
+    - name: thor_rig_v017:eye_upper_eyelid_nml_5_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -0.00905532, y: 0.0023718826, z: 0.013037555}
+      rotation: {x: -0.070707016, y: -0.2980707, z: -0.02214615, w: 0.9516638}
+      scale: {x: 0.9999943, y: 1, z: 1.0000085}
+    - name: thor_rig_v017:eye_upper_eyelid_nml_6_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -0.013461344, y: 0.0014752168, z: 0.008615014}
+      rotation: {x: -0.04035722, y: -0.4795735, z: -0.022086468, w: 0.8762949}
+      scale: {x: 0.9999945, y: 1.0000006, z: 1.0000093}
+    - name: thor_rig_v017:eye_lower_eyelid_ori_0_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: 0.011900713, y: -0.002209413, z: 0.010782941}
+      rotation: {x: 0.17496736, y: 0.36985835, z: 0.23308207, w: 0.88219273}
+      scale: {x: 1.000006, y: 1.000003, z: 0.9999939}
+    - name: thor_rig_v017:eye_lower_eyelid_ori_1_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: 0.0068512848, y: -0.0054340665, z: 0.013649584}
+      rotation: {x: 0.20540528, y: 0.19182837, z: 0.142481, w: 0.94905734}
+      scale: {x: 1.0000045, y: 1.0000017, z: 0.99999505}
+    - name: thor_rig_v017:eye_lower_eyelid_ori_2_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: 0.0027355608, y: -0.006571598, z: 0.0145640345}
+      rotation: {x: 0.21148147, y: 0.07784285, z: 0.040674027, w: 0.97342783}
+      scale: {x: 1.0000024, y: 1.0000006, z: 0.99999756}
+    - name: thor_rig_v017:eye_lower_eyelid_ori_3_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -0.000922514, y: -0.006731189, z: 0.014718029}
+      rotation: {x: 0.21236527, y: -0.030579016, z: 0.0066489205, w: 0.9766892}
+      scale: {x: 0.9999995, y: 1.0000005, z: 1.0000008}
+    - name: thor_rig_v017:eye_lower_eyelid_ori_4_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -0.0048288954, y: -0.006445809, z: 0.014068178}
+      rotation: {x: 0.21490276, y: -0.14104976, z: -0.06001106, w: 0.9645312}
+      scale: {x: 0.9999967, y: 1.0000001, z: 1.000005}
+    - name: thor_rig_v017:eye_lower_eyelid_ori_5_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -0.009309886, y: -0.0043871743, z: 0.0125243375}
+      rotation: {x: 0.21486461, y: -0.25986516, z: -0.23338386, w: 0.91205007}
+      scale: {x: 0.9999972, y: 0.9999984, z: 1.000007}
+    - name: thor_rig_v017:eye_lower_eyelid_ori_6_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -0.013595957, y: 0.001489969, z: 0.008701164}
+      rotation: {x: 0.17412822, y: -0.44866338, z: -0.404288, w: 0.7777735}
+      scale: {x: 1, y: 0.9999967, z: 1.0000077}
+    - name: thor_rig_v017:eye_lower_eyelid_nml_0_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: 0.011782885, y: -0.0021875377, z: 0.010676179}
+      rotation: {x: 0.062444977, y: 0.40436292, z: -0.027685536, w: 0.9120443}
+      scale: {x: 1.0000075, y: 1, z: 0.9999932}
+    - name: thor_rig_v017:eye_lower_eyelid_nml_1_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: 0.00678345, y: -0.005380264, z: 0.013514439}
+      rotation: {x: 0.1655075, y: 0.22714916, z: -0.039206598, w: 0.95889175}
+      scale: {x: 1.0000063, y: 0.99999994, z: 0.9999952}
+    - name: thor_rig_v017:eye_lower_eyelid_nml_2_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: 0.002708476, y: -0.0065065324, z: 0.014419837}
+      rotation: {x: 0.20629957, y: 0.09068848, z: -0.019206678, w: 0.97408795}
+      scale: {x: 1.0000027, y: 1.0000006, z: 0.999998}
+    - name: thor_rig_v017:eye_lower_eyelid_nml_3_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -0.00091338024, y: -0.006664543, z: 0.014572306}
+      rotation: {x: 0.21236527, y: -0.030579016, z: 0.0066489205, w: 0.9766892}
+      scale: {x: 0.9999995, y: 1.0000005, z: 1.0000008}
+    - name: thor_rig_v017:eye_lower_eyelid_nml_4_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -0.004781084, y: -0.006381989, z: 0.013928888}
+      rotation: {x: 0.20027693, y: -0.16114396, z: 0.03341564, w: 0.96581846}
+      scale: {x: 0.9999962, y: 1.0000008, z: 1.0000045}
+    - name: thor_rig_v017:eye_lower_eyelid_nml_5_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -0.009217708, y: -0.004343737, z: 0.012400335}
+      rotation: {x: 0.12968153, y: -0.31125453, z: 0.04291951, w: 0.940458}
+      scale: {x: 0.9999943, y: 1.000001, z: 1.0000075}
+    - name: thor_rig_v017:eye_lower_eyelid_nml_6_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -0.013461344, y: 0.0014752168, z: 0.008615014}
+      rotation: {x: -0.04035722, y: -0.4795735, z: -0.022086468, w: 0.8762949}
+      scale: {x: 0.9999945, y: 1.0000006, z: 1.0000093}
+    - name: thor_rig_v017:eye_pupil_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -1.1379786e-17, y: 5.684342e-16, z: 3.5527136e-17}
+      rotation: {x: 2.5465848e-11, y: 0.000000014901159, z: -9.094946e-13, w: 1}
+      scale: {x: 0.16708794, y: 0.16708812, z: 0.98594177}
+    - name: thor_rig_v017:eye_iris_l
+      parentName: thor_rig_v017:eyeball_l
+      position: {x: -1.1379786e-17, y: 5.684342e-16, z: 3.5527136e-17}
+      rotation: {x: -2.9103827e-11, y: 0.000000014901159, z: -9.094946e-13, w: 1}
+      scale: {x: 0.3496516, y: 0.349652, z: 0.93687993}
+    - name: thor_rig_v017:head_lower
+      parentName: thor_rig_v017:head
+      position: {x: -0, y: 0.021336772, z: -0.00023279109}
+      rotation: {x: -0.0054549184, y: -0, z: -0, w: 0.99998516}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: thor_rig_v017:jaw
+      parentName: thor_rig_v017:head_lower
+      position: {x: -0, y: -0.047578815, z: 0.088774994}
+      rotation: {x: -0.0076460564, y: -0, z: -0, w: 0.99997085}
+      scale: {x: 1, y: 0.99999994, z: 1.0000006}
+    - name: thor_rig_v017:chin
+      parentName: thor_rig_v017:jaw
+      position: {x: -0, y: -0.011778093, z: -0.0148707805}
+      rotation: {x: 0.61727446, y: -0, z: -0, w: 0.78674793}
+      scale: {x: 1, y: 1.0000005, z: 1.0000014}
+    - name: thor_rig_v017:tongue_1
+      parentName: thor_rig_v017:jaw
+      position: {x: -0, y: 0.024203194, z: -0.046803545}
+      rotation: {x: -0.1419537, y: -0, z: -0, w: 0.9898733}
+      scale: {x: 1, y: 1.0000001, z: 1.0000017}
+    - name: thor_rig_v017:tongue_2
+      parentName: thor_rig_v017:tongue_1
+      position: {x: -0, y: -0.000059930535, z: 0.010947697}
+      rotation: {x: 0.18968573, y: -0, z: 0, w: 0.9818449}
+      scale: {x: 1, y: 1.0000106, z: 0.9999875}
+    - name: thor_rig_v017:tongue_3
+      parentName: thor_rig_v017:tongue_2
+      position: {x: -0, y: 0.0015386532, z: 0.012821762}
+      rotation: {x: 0.0408832, y: -0, z: -0, w: 0.9991639}
+      scale: {x: 1, y: 1.0000032, z: 0.9999967}
+    - name: thor_rig_v017:tongue_4
+      parentName: thor_rig_v017:tongue_3
+      position: {x: -0, y: 0.0012510457, z: 0.010060789}
+      rotation: {x: 0.000000014901156, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999841, z: 1.0000145}
+    - name: thor_rig_v017:lower_teeth
+      parentName: thor_rig_v017:jaw
+      position: {x: -2.0122791e-17, y: 0.024875155, z: -0.05153324}
+      rotation: {x: 0.009001242, y: -0, z: -0, w: 0.9999595}
+      scale: {x: 1, y: 0.99999994, z: 0.99999845}
+    - name: thor_rig_v017:lower_lip_01_l
+      parentName: thor_rig_v017:head_lower
+      position: {x: -0.0073944526, y: -0.019475203, z: 0.086941816}
+      rotation: {x: -0.13418166, y: 0.0077713365, z: 0.9903996, w: -0.032305587}
+      scale: {x: 1.0000011, y: 1.0000018, z: 1.000001}
+    - name: thor_rig_v017:lower_lip_02_l
+      parentName: thor_rig_v017:head_lower
+      position: {x: -0.014839807, y: -0.02046546, z: 0.08367361}
+      rotation: {x: -0.26806396, y: 0.018744344, z: 0.96002674, w: -0.07835268}
+      scale: {x: 1.0000056, y: 1.0000048, z: 1}
+    - name: thor_rig_v017:lower_lip_01_m
+      parentName: thor_rig_v017:head_lower
+      position: {x: -0.000008881141, y: -0.019270603, z: 0.08792921}
+      rotation: {x: -0.00015054442, y: 0.0000006090849, z: 1, w: -0.000017446893}
+      scale: {x: 1.0000012, y: 1, z: 1.0000005}
+    - name: thor_rig_v017:lower_lip_03_r
+      parentName: thor_rig_v017:head_lower
+      position: {x: 0.025504772, y: -0.022585418, z: 0.0758573}
+      rotation: {x: 0.32960808, y: 0.024813952, z: 0.94123477, w: 0.06942583}
+      scale: {x: 0.9999998, y: 0.99999946, z: 1.0000006}
+    - name: thor_rig_v017:lower_lip_01_r
+      parentName: thor_rig_v017:head_lower
+      position: {x: 0.0073767826, y: -0.01947399, z: 0.08694667}
+      rotation: {x: 0.13378888, y: 0.0059161293, z: 0.99046123, w: 0.032437265}
+      scale: {x: 1.0000012, y: 1.0000019, z: 1.0000002}
+    - name: thor_rig_v017:upper_lip_03_l
+      parentName: thor_rig_v017:head_lower
+      position: {x: -0.025539346, y: -0.022591993, z: 0.07582969}
+      rotation: {x: -0.32984263, y: 0.027276304, z: 0.9411508, w: -0.06852041}
+      scale: {x: 0.99999946, y: 0.99999934, z: 1.0000012}
+    - name: thor_rig_v017:lower_lip_03_l
+      parentName: thor_rig_v017:head_lower
+      position: {x: -0.025539346, y: -0.022591993, z: 0.07582969}
+      rotation: {x: -0.32984257, y: 0.027275845, z: 0.94115096, w: -0.06851921}
+      scale: {x: 1.0000019, y: 1, z: 1.0000011}
+    - name: thor_rig_v017:upper_lip_01_l
+      parentName: thor_rig_v017:head_lower
+      position: {x: -0.007394453, y: -0.019475164, z: 0.086941816}
+      rotation: {x: -0.1341818, y: 0.0077710305, z: 0.99039966, w: -0.032304317}
+      scale: {x: 1.0000045, y: 1.0000048, z: 1.0000001}
+    - name: thor_rig_v017:upper_lip_02_l
+      parentName: thor_rig_v017:head_lower
+      position: {x: -0.0148204565, y: -0.020461742, z: 0.08368533}
+      rotation: {x: -0.26779318, y: 0.018717816, z: 0.9601057, w: -0.07831742}
+      scale: {x: 1.0000035, y: 1.0000029, z: 1.0000008}
+    - name: thor_rig_v017:lower_lip_02_r
+      parentName: thor_rig_v017:head_lower
+      position: {x: 0.0148204565, y: -0.020461781, z: 0.08368533}
+      rotation: {x: 0.2676121, y: 0.016507436, z: 0.96014637, w: 0.0789325}
+      scale: {x: 1.0000019, y: 1.0000019, z: 1.0000006}
+    - name: thor_rig_v017:upper_lip_01_r
+      parentName: thor_rig_v017:head_lower
+      position: {x: 0.0073767826, y: -0.019473953, z: 0.08694669}
+      rotation: {x: 0.13378894, y: 0.005915892, z: 0.9904613, w: 0.03243597}
+      scale: {x: 1.0000038, y: 1.0000051, z: 1.0000002}
+    - name: thor_rig_v017:upper_lip_03_r
+      parentName: thor_rig_v017:head_lower
+      position: {x: 0.025504772, y: -0.022585418, z: 0.0758573}
+      rotation: {x: 0.3295774, y: 0.024397166, z: 0.94124556, w: 0.06957312}
+      scale: {x: 1.0000019, y: 1.0000004, z: 1.0000011}
+    - name: thor_rig_v017:upper_lip_02_r
+      parentName: thor_rig_v017:head_lower
+      position: {x: 0.0148204565, y: -0.020461742, z: 0.08368533}
+      rotation: {x: 0.2676122, y: 0.016507667, z: 0.96014625, w: 0.07893366}
+      scale: {x: 0.99999964, y: 0.99999946, z: 1.0000008}
+    - name: thor_rig_v017:upper_lip_02_trans_l
+      parentName: thor_rig_v017:head_lower
+      position: {x: -0.0148204565, y: -0.020461742, z: 0.08368533}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000005}
+    - name: thor_rig_v017:lower_lip_02_trans_r
+      parentName: thor_rig_v017:head_lower
+      position: {x: 0.0148204565, y: -0.020461781, z: 0.08368533}
+      rotation: {x: -0, y: -4.173436e-16, z: 9.235908e-15, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000005}
+    - name: thor_rig_v017:upper_lip_01_trans_r
+      parentName: thor_rig_v017:head_lower
+      position: {x: 0.0073767826, y: -0.019473953, z: 0.08694669}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000005}
+    - name: thor_rig_v017:lower_lip_01_trans_l
+      parentName: thor_rig_v017:head_lower
+      position: {x: -0.0073944526, y: -0.019475203, z: 0.086941816}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000005}
+    - name: thor_rig_v017:lower_lip_02_trans_l
+      parentName: thor_rig_v017:head_lower
+      position: {x: -0.014839807, y: -0.02046546, z: 0.08367361}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000005}
+    - name: thor_rig_v017:lower_lip_03_trans_l
+      parentName: thor_rig_v017:head_lower
+      position: {x: -0.025539346, y: -0.022591993, z: 0.07582969}
+      rotation: {x: -0, y: 1.8686801e-16, z: -4.6120415e-15, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000005}
+    - name: thor_rig_v017:upper_lip_01_trans_l
+      parentName: thor_rig_v017:head_lower
+      position: {x: -0.007394453, y: -0.019475164, z: 0.086941816}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000005}
+    - name: thor_rig_v017:upper_lip_03_trans_l
+      parentName: thor_rig_v017:head_lower
+      position: {x: -0.025539346, y: -0.022591993, z: 0.07582969}
+      rotation: {x: -0, y: 2.220446e-16, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000005}
+    - name: thor_rig_v017:lower_lip_01_trans_r
+      parentName: thor_rig_v017:head_lower
+      position: {x: 0.0073767826, y: -0.01947399, z: 0.08694667}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000005}
+    - name: thor_rig_v017:lower_lip_03_trans_r
+      parentName: thor_rig_v017:head_lower
+      position: {x: 0.025504772, y: -0.022585418, z: 0.0758573}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000005}
+    - name: thor_rig_v017:upper_lip_02_trans_r
+      parentName: thor_rig_v017:head_lower
+      position: {x: 0.0148204565, y: -0.020461742, z: 0.08368533}
+      rotation: {x: -0, y: 4.440892e-16, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000005}
+    - name: thor_rig_v017:upper_lip_03_trans_r
+      parentName: thor_rig_v017:head_lower
+      position: {x: 0.025504772, y: -0.022585418, z: 0.0758573}
+      rotation: {x: -0, y: 3.509995e-17, z: 4.6120597e-15, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000005}
+    - name: thor_rig_v017:lower_lip_01_trans_m
+      parentName: thor_rig_v017:head_lower
+      position: {x: -0.000008881141, y: -0.019270603, z: 0.08792921}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000006}
+    - name: thor_rig_v017:upper_lip_01_trans_m
+      parentName: thor_rig_v017:head_lower
+      position: {x: -9.436896e-18, y: -0.01927058, z: 0.08792922}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000006}
+    - name: thor_rig_v017:upper_lip_01_m
+      parentName: thor_rig_v017:head_lower
+      position: {x: -9.436896e-18, y: -0.01927058, z: 0.08792922}
+      rotation: {x: -0, y: -0, z: 1, w: -7.688867e-14}
+      scale: {x: 1, y: 1, z: 1.0000006}
+    - name: thor_rig_v017:nose
+      parentName: thor_rig_v017:head
+      position: {x: -0, y: 0.038361244, z: 0.079211}
+      rotation: {x: -0.21622254, y: -0, z: -0, w: 0.97634417}
+      scale: {x: 1, y: 1, z: 1.0000015}
+    - name: thor_rig_v017:nose_bridge
+      parentName: thor_rig_v017:nose
+      position: {x: -0, y: 0.01165536, z: 0.014073912}
+      rotation: {x: -0.08187302, y: -0, z: -0, w: 0.99664277}
+      scale: {x: 1, y: 1.0000095, z: 0.99998933}
+    - name: thor_rig_v017:nose_tip
+      parentName: thor_rig_v017:nose
+      position: {x: -0, y: -0.009408749, z: 0.014209147}
+      rotation: {x: 0.13746716, y: -0, z: -0, w: 0.99050635}
+      scale: {x: 1, y: 0.99998385, z: 1.000015}
+    - name: thor_rig_v017:nostril_l
+      parentName: thor_rig_v017:nose
+      position: {x: -0.0077937045, y: -0.005759908, z: 0.0072499514}
+      rotation: {x: -0.13995878, y: -0.11792698, z: -0.043139692, w: 0.9821628}
+      scale: {x: 0.99999917, y: 0.9999941, z: 1.0000074}
+    - name: thor_rig_v017:nostril_edge_l
+      parentName: thor_rig_v017:nostril_l
+      position: {x: -0.010001448, y: 0.0027859774, z: -0.0043268013}
+      rotation: {x: 0.3564932, y: -0.06617327, z: 0.09499557, w: 0.9270974}
+      scale: {x: 0.9999975, y: 0.99996823, z: 1.0000352}
+    - name: thor_rig_v017:nostril_r
+      parentName: thor_rig_v017:nose
+      position: {x: 0.0077937045, y: -0.005759908, z: 0.0072499514}
+      rotation: {x: -0.13823618, y: -0.0076856483, z: 0.021009546, w: 0.9901466}
+      scale: {x: 1, y: 1.0000147, z: 0.99998444}
+    - name: thor_rig_v017:nostril_edge_r
+      parentName: thor_rig_v017:nostril_r
+      position: {x: 0.008416949, y: 0.0035187018, z: -0.0065791756}
+      rotation: {x: 0.3438574, y: 0.0030876668, z: -0.022148909, w: 0.93875563}
+      scale: {x: 1, y: 1.0000029, z: 0.99999815}
+    - name: thor_rig_v017:columella
+      parentName: thor_rig_v017:nose
+      position: {x: -0, y: -0.014206303, z: 0.0067967493}
+      rotation: {x: -0.0115147075, y: 0.0014403969, z: -0.0021489563, w: 0.99993044}
+      scale: {x: 1, y: 1.0000006, z: 0.9999972}
+    - name: thor_rig_v017:cheek_l
+      parentName: thor_rig_v017:head
+      position: {x: -0.03253516, y: 0.013141386, z: 0.044011667}
+      rotation: {x: -0.2684951, y: 0.88565534, z: 0.10487731, w: -0.3640409}
+      scale: {x: 1.0000012, y: 0.9999997, z: 1.0000026}
+    - name: thor_rig_v017:cheek_r
+      parentName: thor_rig_v017:head
+      position: {x: 0.03253516, y: 0.013141386, z: 0.044011667}
+      rotation: {x: 0.2640864, y: 0.0029007364, z: -0.1784537, w: 0.94784194}
+      scale: {x: 0.99999994, y: 1, z: 0.9999997}
+    - name: thor_rig_v017:clavicle_l
+      parentName: thor_rig_v017:spine_04
+      position: {x: -0.04724976, y: 0.17143655, z: -0.08950806}
+      rotation: {x: 0.7109535, y: -0, z: -0, w: 0.703239}
+      scale: {x: 1, y: 1.0000005, z: 0.99999994}
+    - name: thor_rig_v017:clavicle_twist_01_l
+      parentName: thor_rig_v017:clavicle_l
+      position: {x: -0.16442527, y: -0.0065644607, z: 0.015321047}
+      rotation: {x: 0.000000029802322, y: -4.5472022e-11, z: 4.9611877e-13, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 0.9999985}
+    - name: thor_rig_v017:upperArm_l
+      parentName: thor_rig_v017:clavicle_l
+      position: {x: -0.16442527, y: -0.0065644607, z: 0.015321047}
+      rotation: {x: 0.143883, y: 0.027428497, z: 0.0015207866, w: 0.98921335}
+      scale: {x: 1.0000048, y: 1.0088563, z: 1.0088944}
+    - name: thor_rig_v017:upperArm_twist_01_l
+      parentName: thor_rig_v017:upperArm_l
+      position: {x: -0.12705046, y: -1.0658141e-16, z: 4.2632563e-16}
+      rotation: {x: -0.00000008940697, y: -0.000000014901161, z: -0.000000044703484, w: 1}
+      scale: {x: 1, y: 1.0000013, z: 0.99999976}
+    - name: thor_rig_v017:upperArm_twist_02_l
+      parentName: thor_rig_v017:upperArm_twist_01_l
+      position: {x: -0.12705046, y: 1.5987211e-16, z: 0}
+      rotation: {x: 0.00000011920929, y: 0.000000029802326, z: -0.00000002980231, w: 1}
+      scale: {x: 0.99999994, y: 1.000002, z: 1.0000015}
+    - name: thor_rig_v017:lowerArm_l
+      parentName: thor_rig_v017:upperArm_l
+      position: {x: -0.25410092, y: -6.217249e-17, z: 2.842171e-16}
+      rotation: {x: -0.006908372, y: -0.024505083, z: -0.02520732, w: 0.99935794}
+      scale: {x: 0.9976455, y: 1.1163837, z: 1.1138147}
+    - name: thor_rig_v017:lowerArm_twist_01_l
+      parentName: thor_rig_v017:lowerArm_l
+      position: {x: -0.09877083, y: -2.1316282e-16, z: 7.105427e-16}
+      rotation: {x: -0.0000000039874855, y: 0.000000014357734, z: -4.440891e-16, w: 1}
+      scale: {x: 1.0000015, y: 1.000018, z: 0.99998695}
+    - name: thor_rig_v017:lowerArm_twist_02_l
+      parentName: thor_rig_v017:lowerArm_twist_01_l
+      position: {x: -0.09877083, y: -1.7763567e-16, z: 0}
+      rotation: {x: -0.000000086146414, y: -0.000000023924905, z: -0.000000029802322, w: 1}
+      scale: {x: 1.0000002, y: 1.0000062, z: 0.9999982}
+    - name: thor_rig_v017:hand_l
+      parentName: thor_rig_v017:lowerArm_l
+      position: {x: -0.19754165, y: -4.973799e-16, z: 8.5265126e-16}
+      rotation: {x: -0.17564552, y: 0.008572684, z: -0.038922455, w: 0.9836464}
+      scale: {x: 0.99482846, y: 0.89325917, z: 0.8918587}
+    - name: thor_rig_v017:hand_prop_l
+      parentName: thor_rig_v017:hand_l
+      position: {x: -0.13898534, y: 5.684342e-16, z: 0.051260732}
+      rotation: {x: 1.5612511e-16, y: -4.1633363e-17, z: -1.9428903e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:thumb_carpal_l
+      parentName: thor_rig_v017:hand_l
+      position: {x: -0.054348417, y: 0.034571074, z: 0.017808076}
+      rotation: {x: -0.82071465, y: 0.54116046, z: 0.17364535, w: 0.058482178}
+      scale: {x: 0.8623428, y: 1.1377115, z: 1.020629}
+    - name: thor_rig_v017:thumb_finger_01_l
+      parentName: thor_rig_v017:thumb_carpal_l
+      position: {x: -0.049618505, y: 0.012738051, z: 0.016691586}
+      rotation: {x: 0.092339374, y: 0.19565193, z: -0.112125434, w: 0.96985656}
+      scale: {x: 1.0151829, y: 1.001137, z: 0.9852608}
+    - name: thor_rig_v017:thumb_finger_02_l
+      parentName: thor_rig_v017:thumb_finger_01_l
+      position: {x: -0.051870957, y: 0.0015992946, z: -0.005241149}
+      rotation: {x: -0.000000078231096, y: -0.00000010803342, z: -0.022375006, w: 0.9997497}
+      scale: {x: 0.96737194, y: 1.0291945, z: 0.9999999}
+    - name: thor_rig_v017:index_carpal_l
+      parentName: thor_rig_v017:hand_l
+      position: {x: -0.07612487, y: 0.042470526, z: 0.0061242795}
+      rotation: {x: 0.70542854, y: -0.048688542, z: -0.036421455, w: 0.70616823}
+      scale: {x: 0.96696246, y: 0.9977963, z: 1.0365342}
+    - name: thor_rig_v017:index_finger_01_l
+      parentName: thor_rig_v017:index_carpal_l
+      position: {x: -0.08390591, y: 0.0024494147, z: -0.0017807904}
+      rotation: {x: -0.026885659, y: -0.0069627613, z: -0.034274437, w: 0.99902654}
+      scale: {x: 1.0275626, y: 0.9519191, z: 1.0209395}
+    - name: thor_rig_v017:index_finger_02_l
+      parentName: thor_rig_v017:index_finger_01_l
+      position: {x: -0.04367178, y: -0.00024133897, z: -0.00011310286}
+      rotation: {x: -0.00071337627, y: -0.0007802391, z: -0.040149063, w: 0.9991932}
+      scale: {x: 0.92144066, y: 1.1597769, z: 0.9401492}
+    - name: thor_rig_v017:index_finger_03_l
+      parentName: thor_rig_v017:index_finger_02_l
+      position: {x: -0.040280245, y: -1.4210854e-16, z: 1.4210854e-16}
+      rotation: {x: -0.0000000027939675, y: -0.000000017695127, z: -0.000000029802319, w: 1}
+      scale: {x: 1.0225636, y: 0.9780822, z: 1.0000013}
+    - name: thor_rig_v017:middle_carpal_l
+      parentName: thor_rig_v017:hand_l
+      position: {x: -0.075202666, y: 0.014860392, z: -0.010701045}
+      rotation: {x: 0.7033692, y: -0.063157834, z: -0.0048035155, w: 0.707997}
+      scale: {x: 0.995177, y: 1.0010388, z: 1.0038373}
+    - name: thor_rig_v017:middle_finger_01_l
+      parentName: thor_rig_v017:middle_carpal_l
+      position: {x: -0.0836087, y: 0.0051132385, z: 0.0006627577}
+      rotation: {x: -0.03380746, y: 0.010602334, z: -0.052196942, w: 0.9980081}
+      scale: {x: 0.99826586, y: 1.006968, z: 0.994837}
+    - name: thor_rig_v017:middle_finger_02_l
+      parentName: thor_rig_v017:middle_finger_01_l
+      position: {x: -0.054649033, y: 0.00021318119, z: -0.000088172514}
+      rotation: {x: -0, y: -0.000000052154057, z: -0.039440818, w: 0.999222}
+      scale: {x: 0.9629657, y: 1.0872642, z: 0.9555236}
+    - name: thor_rig_v017:middle_finger_03_l
+      parentName: thor_rig_v017:middle_finger_02_l
+      position: {x: -0.03567925, y: -5.684342e-16, z: 1.4210854e-16}
+      rotation: {x: -0.00000001707224, y: -0.000000015594583, z: -0.017452415, w: 0.99984777}
+      scale: {x: 0.9967192, y: 1.0029684, z: 1.000004}
+    - name: thor_rig_v017:ring_carpal_l
+      parentName: thor_rig_v017:hand_l
+      position: {x: -0.06587704, y: -0.0105131455, z: -0.008864409}
+      rotation: {x: 0.70580614, y: -0.061544098, z: 0.0029270279, w: 0.70572054}
+      scale: {x: 1.0183804, y: 0.998237, z: 0.9837767}
+    - name: thor_rig_v017:ring_finger_01_l
+      parentName: thor_rig_v017:ring_carpal_l
+      position: {x: -0.08234236, y: 0.0024356022, z: 0.0021115642}
+      rotation: {x: -0.03208259, y: 0.018594375, z: -0.04262453, w: 0.9984028}
+      scale: {x: 0.9978658, y: 1.0076004, z: 0.9945882}
+    - name: thor_rig_v017:ring_finger_02_l
+      parentName: thor_rig_v017:ring_finger_01_l
+      position: {x: -0.053452943, y: 0.000099704215, z: 0.000078664176}
+      rotation: {x: 0.0013954793, y: 0.0034899705, z: -0.041825693, w: 0.99911785}
+      scale: {x: 0.9777264, y: 1.0706726, z: 0.95512295}
+    - name: thor_rig_v017:ring_finger_03_l
+      parentName: thor_rig_v017:ring_finger_02_l
+      position: {x: -0.040800486, y: -1.4210854e-15, z: 0}
+      rotation: {x: -0.000000031664968, y: -0.000000035390258, z: -0.015264422, w: 0.99988353}
+      scale: {x: 1.0019548, y: 0.9980851, z: 1.0000091}
+    - name: thor_rig_v017:pinky_carpal_l
+      parentName: thor_rig_v017:hand_l
+      position: {x: -0.05436796, y: -0.033101875, z: -0.000085757754}
+      rotation: {x: 0.713284, y: -0.06945189, z: 0.03714478, w: 0.69643563}
+      scale: {x: 1.0875099, y: 0.9877416, z: 0.9314729}
+    - name: thor_rig_v017:pinky_finger_01_l
+      parentName: thor_rig_v017:pinky_carpal_l
+      position: {x: -0.07964423, y: 0.0027145427, z: -0.00013290826}
+      rotation: {x: 0.012126925, y: -0.0055832914, z: -0.064401045, w: 0.9978348}
+      scale: {x: 0.94834894, y: 1.0412383, z: 1.0136602}
+    - name: thor_rig_v017:pinky_finger_02_l
+      parentName: thor_rig_v017:pinky_finger_01_l
+      position: {x: -0.04179595, y: -1.2079227e-15, z: 0}
+      rotation: {x: -0.00022470579, y: 0.000034597237, z: -0.03969363, w: 0.9992119}
+      scale: {x: 0.93350554, y: 1.0664098, z: 1.0004401}
+    - name: thor_rig_v017:pinky_finger_03_l
+      parentName: thor_rig_v017:pinky_finger_02_l
+      position: {x: -0.03441401, y: 2.1316282e-16, z: 0}
+      rotation: {x: 0.000000052090375, y: 0.0000000016168041, z: -0.068125784, w: 0.99767673}
+      scale: {x: 1.1401194, y: 0.8868839, z: 1.0000118}
+    - name: thor_rig_v017:clavicle_r
+      parentName: thor_rig_v017:spine_04
+      position: {x: 0.04724976, y: 0.17143655, z: -0.08950806}
+      rotation: {x: -0.7032391, y: -0, z: -0, w: 0.7109535}
+      scale: {x: 1, y: 1.0000023, z: 1}
+    - name: thor_rig_v017:clavicle_twist_01_r
+      parentName: thor_rig_v017:clavicle_r
+      position: {x: 0.16442527, y: 0.0065644607, z: -0.015321047}
+      rotation: {x: -0.000000059604638, y: -5.4566435e-10, z: 5.953348e-12, w: 1}
+      scale: {x: 1.0000001, y: 1.0000025, z: 1.0000002}
+    - name: thor_rig_v017:upperArm_r
+      parentName: thor_rig_v017:clavicle_r
+      position: {x: 0.16442527, y: 0.0065644607, z: -0.015321047}
+      rotation: {x: 0.14388311, y: 0.027428426, z: 0.001520752, w: 0.98921335}
+      scale: {x: 0.9999996, y: 0.9841502, z: 0.984148}
+    - name: thor_rig_v017:upperArm_twist_01_r
+      parentName: thor_rig_v017:upperArm_r
+      position: {x: 0.13772091, y: 1.7763567e-16, z: -2.842171e-16}
+      rotation: {x: 0.000000059604645, y: -0.000000059604645, z: -0.000000040978193, w: 1}
+      scale: {x: 1.0000015, y: 0.9999898, z: 1.0000085}
+    - name: thor_rig_v017:upperArm_twist_02_r
+      parentName: thor_rig_v017:upperArm_twist_01_r
+      position: {x: 0.13772091, y: 2.1316282e-16, z: 0}
+      rotation: {x: 0.000000014901161, y: -0, z: -0.000000014901161, w: 1}
+      scale: {x: 1.0000033, y: 0.9999875, z: 1.0000072}
+    - name: thor_rig_v017:lowerArm_r
+      parentName: thor_rig_v017:upperArm_r
+      position: {x: 0.27544183, y: 2.4868996e-16, z: -5.684342e-16}
+      rotation: {x: -0.006605952, y: -0.02445323, z: -0.03094062, w: 0.9992002}
+      scale: {x: 1.0041834, y: 0.9836229, z: 0.9878587}
+    - name: thor_rig_v017:lowerArm_twist_01_r
+      parentName: thor_rig_v017:lowerArm_r
+      position: {x: 0.13196234, y: 2.842171e-16, z: -2.842171e-16}
+      rotation: {x: 0.000000007178869, y: 0.0000000019937403, z: 5.3290705e-15, w: 1}
+      scale: {x: 1.0000025, y: 0.9999999, z: 0.99999875}
+    - name: thor_rig_v017:lowerArm_twist_02_r
+      parentName: thor_rig_v017:lowerArm_twist_01_r
+      position: {x: 0.13196234, y: -5.684342e-16, z: 0}
+      rotation: {x: 7.960992e-10, y: -0.00000003070921, z: 2.8865794e-15, w: 1}
+      scale: {x: 1.0000017, y: 0.99999976, z: 0.99999815}
+    - name: thor_rig_v017:hand_r
+      parentName: thor_rig_v017:lowerArm_r
+      position: {x: 0.2639247, y: 1.4210854e-16, z: -4.2632563e-16}
+      rotation: {x: -0.17564563, y: 0.008572615, z: -0.03892255, w: 0.9836464}
+      scale: {x: 1.0135115, y: 1.0164552, z: 1.0268123}
+    - name: thor_rig_v017:hand_prop_r
+      parentName: thor_rig_v017:hand_r
+      position: {x: 0.13898534, y: -0.0000000010802396, z: -0.051260732}
+      rotation: {x: -0.000000010536712, y: -1.5265568e-16, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thor_rig_v017:pinky_carpal_r
+      parentName: thor_rig_v017:hand_r
+      position: {x: 0.05436796, y: 0.033101875, z: 0.000085757056}
+      rotation: {x: 0.7132379, y: -0.0624424, z: 0.04404434, w: 0.69674456}
+      scale: {x: 1.0275538, y: 0.9969667, z: 0.9760063}
+    - name: thor_rig_v017:pinky_finger_01_r
+      parentName: thor_rig_v017:pinky_carpal_r
+      position: {x: 0.07964423, y: -0.0027145427, z: 0.00013290826}
+      rotation: {x: 0.016746396, y: -0.003988164, z: -0.055228177, w: 0.99832535}
+      scale: {x: 0.9812514, y: 1.0140092, z: 1.0050899}
+    - name: thor_rig_v017:pinky_finger_02_r
+      parentName: thor_rig_v017:pinky_finger_01_r
+      position: {x: 0.04179595, y: 1.7053025e-15, z: 1.4210854e-16}
+      rotation: {x: 0.000116484196, y: 0.000007449181, z: -0.041405793, w: 0.99914247}
+      scale: {x: 1.0303048, y: 0.97156465, z: 0.9999996}
+    - name: thor_rig_v017:pinky_finger_03_r
+      parentName: thor_rig_v017:pinky_finger_02_r
+      position: {x: 0.03441401, y: -7.9936056e-16, z: 8.5265126e-16}
+      rotation: {x: -0.000000022641771, y: -0.0000000016783726, z: -0.06812598, w: 0.9976768}
+      scale: {x: 1.0359331, y: 0.96299666, z: 1.0027958}
+    - name: thor_rig_v017:thumb_carpal_r
+      parentName: thor_rig_v017:hand_r
+      position: {x: 0.054348417, y: -0.034571074, z: -0.017808076}
+      rotation: {x: 0.8898526, y: -0.44520015, z: -0.04001281, w: 0.09142297}
+      scale: {x: 1.0054884, y: 0.9992942, z: 0.9953462}
+    - name: thor_rig_v017:thumb_finger_01_r
+      parentName: thor_rig_v017:thumb_carpal_r
+      position: {x: 0.051870957, y: -0.0015992946, z: 0.005241149}
+      rotation: {x: 0.035838604, y: -0.014686339, z: -0.034491148, w: 0.9986543}
+      scale: {x: 1.0601776, y: 0.9384534, z: 1.005483}
+    - name: thor_rig_v017:thumb_finger_02_r
+      parentName: thor_rig_v017:thumb_finger_01_r
+      position: {x: 0.051870957, y: -0.0015992946, z: 0.005241149}
+      rotation: {x: -0.000000044703484, y: 0.00000008940697, z: -0.022374988, w: 0.99974966}
+      scale: {x: 1.021508, y: 0.9825648, z: 0.9958057}
+    - name: thor_rig_v017:ring_carpal_r
+      parentName: thor_rig_v017:hand_r
+      position: {x: 0.06587704, y: 0.0105131455, z: 0.008864408}
+      rotation: {x: 0.70648634, y: -0.05717039, z: 0.004772636, w: 0.7053976}
+      scale: {x: 0.98596025, y: 1.0012213, z: 1.0131302}
+    - name: thor_rig_v017:ring_finger_01_r
+      parentName: thor_rig_v017:ring_carpal_r
+      position: {x: 0.08234236, y: -0.0024356022, z: -0.0021115642}
+      rotation: {x: -0.026563605, y: 0.0186138, z: -0.040920842, w: 0.9986358}
+      scale: {x: 0.98859864, y: 1.0377421, z: 0.97485775}
+    - name: thor_rig_v017:ring_finger_02_r
+      parentName: thor_rig_v017:ring_finger_01_r
+      position: {x: 0.053452943, y: -0.000099704215, z: -0.000078664176}
+      rotation: {x: 0.0016675346, y: 0.0033545785, z: -0.039088257, w: 0.9992288}
+      scale: {x: 0.9909847, y: 1.0089122, z: 1.0001564}
+    - name: thor_rig_v017:ring_finger_03_r
+      parentName: thor_rig_v017:ring_finger_02_r
+      position: {x: 0.040800486, y: 8.348877e-16, z: 0}
+      rotation: {x: 0.00000001117587, y: 0.00000002235174, z: -0.015264548, w: 0.9998835}
+      scale: {x: 1.0087225, y: 0.9914593, z: 1.0000014}
+    - name: thor_rig_v017:index_carpal_r
+      parentName: thor_rig_v017:hand_r
+      position: {x: 0.07612487, y: -0.042470526, z: -0.006124279}
+      rotation: {x: 0.70542866, y: -0.048688337, z: -0.036421433, w: 0.7061681}
+      scale: {x: 1.0310345, y: 1.0015583, z: 0.968155}
+    - name: thor_rig_v017:index_finger_01_r
+      parentName: thor_rig_v017:index_carpal_r
+      position: {x: 0.08390591, y: -0.0024494147, z: 0.0017807904}
+      rotation: {x: -0.022847224, y: 0.013268695, z: -0.052509453, w: 0.99827087}
+      scale: {x: 0.9941352, y: 0.941567, z: 1.0705321}
+    - name: thor_rig_v017:index_finger_02_r
+      parentName: thor_rig_v017:index_finger_01_r
+      position: {x: 0.04367178, y: 0.00024133897, z: 0.00011310286}
+      rotation: {x: 0.00021169517, y: -0.00081168377, z: -0.04533584, w: 0.99897146}
+      scale: {x: 1.0631555, y: 0.9387191, z: 1.0000001}
+    - name: thor_rig_v017:index_finger_03_r
+      parentName: thor_rig_v017:index_finger_02_r
+      position: {x: 0.040280245, y: 3.5527136e-17, z: 7.105427e-17}
+      rotation: {x: 0.000000040978193, y: 0.000000022351742, z: -0.00000004307367, w: 1}
+      scale: {x: 0.96450335, y: 1.0525227, z: 0.98599267}
+    - name: thor_rig_v017:middle_carpal_r
+      parentName: thor_rig_v017:hand_r
+      position: {x: 0.075202666, y: -0.014860392, z: 0.010701045}
+      rotation: {x: 0.70436084, y: -0.058626655, z: -0.0046983976, w: 0.7074014}
+      scale: {x: 1.0055306, y: 0.9989818, z: 0.9954524}
+    - name: thor_rig_v017:middle_finger_01_r
+      parentName: thor_rig_v017:middle_carpal_r
+      position: {x: 0.0836087, y: -0.0051132385, z: -0.0006627577}
+      rotation: {x: -0.028884191, y: 0.015080979, z: -0.060898196, w: 0.99761206}
+      scale: {x: 1.0227841, y: 0.93328315, z: 1.0482873}
+    - name: thor_rig_v017:middle_finger_02_r
+      parentName: thor_rig_v017:middle_finger_01_r
+      position: {x: 0.054649033, y: -0.00021318119, z: 0.000088172514}
+      rotation: {x: -0.00000007636845, y: -0.000000067055225, z: -0.03944091, w: 0.999222}
+      scale: {x: 0.99097836, y: 1.0103999, z: 0.99930996}
+    - name: thor_rig_v017:middle_finger_03_r
+      parentName: thor_rig_v017:middle_finger_02_r
+      position: {x: 0.03567925, y: 8.5265126e-16, z: -3.5527135e-16}
+      rotation: {x: 0.00000005019486, y: 0.00000011515062, z: -0.017452376, w: 0.9998477}
+      scale: {x: 1.0237476, y: 0.97558206, z: 1.0000012}
+    - name: thor_rig_v017:thigh_l
+      parentName: thor_rig_v017:pelvis
+      position: {x: -0.10776646, y: -0.012835078, z: -0.04030276}
+      rotation: {x: -0.5000373, y: -0.4987266, z: 0.45815772, w: 0.5397462}
+      scale: {x: 1.0000039, y: 0.99940854, z: 0.99940723}
+    - name: thor_rig_v017:thigh_twist_01_l
+      parentName: thor_rig_v017:thigh_l
+      position: {x: -0.24327327, y: 0, z: 3.5527136e-17}
+      rotation: {x: -0.009868264, y: -0.000000029802322, z: 0.000000059604645, w: 0.9999513}
+      scale: {x: 1.0000046, y: 1.0000039, z: 1.0000042}
+    - name: thor_rig_v017:thigh_twist_02_l
+      parentName: thor_rig_v017:thigh_twist_01_l
+      position: {x: -0.23751411, y: -0.002221128, z: -0.012620999}
+      rotation: {x: -0.009868234, y: 0.000000059604645, z: -0.00000008940697, w: 0.99995136}
+      scale: {x: 0.9999983, y: 0.9999992, z: 0.9999995}
+    - name: thor_rig_v017:calf_l
+      parentName: thor_rig_v017:thigh_l
+      position: {x: -0.47978377, y: -0.0041643577, z: -0.0249638}
+      rotation: {x: -0.019734293, y: -0.0011687875, z: -0.01971452, w: 0.99961025}
+      scale: {x: 1.0000057, y: 1.0005972, z: 1.0006002}
+    - name: thor_rig_v017:foot_l
+      parentName: thor_rig_v017:calf_l
+      position: {x: -0.41369057, y: 1.7763567e-16, z: 0.0000000012097854}
+      rotation: {x: 0.068014994, y: 0.046176836, z: -0.0553658, w: -0.99507606}
+      scale: {x: 1.0000991, y: 0.9999064, z: 0.9999948}
+    - name: thor_rig_v017:ball_l
+      parentName: thor_rig_v017:foot_l
+      position: {x: -0.082060374, y: -0.13243634, z: -0.012158425}
+      rotation: {x: 0.000015962867, y: 0.000112166614, z: 0.70686764, w: 0.70734596}
+      scale: {x: 1.0000763, y: 0.99993175, z: 1.0000136}
+    - name: thor_rig_v017:calf_twist_01_l
+      parentName: thor_rig_v017:calf_l
+      position: {x: -0.20684528, y: 3.5527136e-17, z: 6.048927e-10}
+      rotation: {x: -0.009859745, y: 0.00000002235174, z: 0.0000000451273, w: 0.9999514}
+      scale: {x: 0.99999875, y: 1.0000008, z: 0.9999998}
+    - name: thor_rig_v017:calf_twist_02_l
+      parentName: thor_rig_v017:calf_twist_01_l
+      position: {x: -0.20684528, y: 6.126726e-12, z: 6.048617e-10}
+      rotation: {x: -0.009859831, y: -0.000000029802326, z: -0, w: 0.9999514}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.000002}
+    - name: thor_rig_v017:thigh_r
+      parentName: thor_rig_v017:pelvis
+      position: {x: 0.10776646, y: -0.012835078, z: -0.04030276}
+      rotation: {x: 0.5397463, y: -0.45815778, z: -0.49872667, w: 0.50003725}
+      scale: {x: 1.0000004, y: 1.0000044, z: 1.0000026}
+    - name: thor_rig_v017:calf_r
+      parentName: thor_rig_v017:thigh_r
+      position: {x: 0.48044983, y: 2.4868996e-16, z: -7.105427e-17}
+      rotation: {x: -0.01973444, y: -0.0011687278, z: -0.019714369, w: 0.9996102}
+      scale: {x: 0.9999989, y: 0.9999978, z: 0.99999714}
+    - name: thor_rig_v017:calf_twist_01_r
+      parentName: thor_rig_v017:calf_r
+      position: {x: 0.20684531, y: -3.0198067e-16, z: 0.0000000014106298}
+      rotation: {x: -0.009868115, y: -0, z: -0.000000029802322, w: 0.9999513}
+      scale: {x: 1.0000014, y: 1.0000029, z: 1.0000037}
+    - name: thor_rig_v017:calf_twist_02_r
+      parentName: thor_rig_v017:calf_twist_01_r
+      position: {x: 0.20684531, y: 2.2728859e-11, z: 0.0000000014104468}
+      rotation: {x: -0.009851405, y: 0.000000029234396, z: -0.000000007447657, w: 0.9999515}
+      scale: {x: 1.0000023, y: 0.9999997, z: 1.000002}
+    - name: thor_rig_v017:foot_r
+      parentName: thor_rig_v017:calf_r
+      position: {x: 0.41369063, y: -5.506706e-16, z: 0.0000000028212597}
+      rotation: {x: -0.06801491, y: -0.046176795, z: 0.05536573, w: 0.995076}
+      scale: {x: 1.0000042, y: 1.000003, z: 1.0000039}
+    - name: thor_rig_v017:ball_r
+      parentName: thor_rig_v017:foot_r
+      position: {x: 0.08206037, y: 0.13243636, z: 0.012158428}
+      rotation: {x: 0.000015936792, y: 0.00011214055, z: 0.7068676, w: 0.7073459}
+      scale: {x: 1.0000011, y: 0.9999985, z: 0.99999946}
+    - name: thor_rig_v017:thigh_twist_01_r
+      parentName: thor_rig_v017:thigh_r
+      position: {x: 0.24022491, y: 1.4210854e-16, z: 0}
+      rotation: {x: -0.009868294, y: 0.000000044703484, z: -0.00000008940697, w: 0.99995136}
+      scale: {x: 1.0000036, y: 1.0000035, z: 1.0000035}
+    - name: thor_rig_v017:thigh_twist_02_r
+      parentName: thor_rig_v017:thigh_twist_01_r
+      position: {x: 0.24022491, y: 7.105427e-17, z: -1.0658141e-16}
+      rotation: {x: -0.009868272, y: 0.000000042943338, z: 0.000000089389594, w: 0.9999513}
+      scale: {x: 1.0000008, y: 1.0000018, z: 1.0000023}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -97,9 +3756,9 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0

@@ -1947,6 +1947,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1 Fighter
       objectReference: {fileID: 0}
+    - target: {fileID: 93448280697202341, guid: 0ac60bcd46bce6e4bb22aaa3b725210d, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8472998948567136586, guid: 0ac60bcd46bce6e4bb22aaa3b725210d, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -2053,9 +2057,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4128425584884297754, guid: d545d2b597e185c469f719de3db90f33, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 7d866099800aa154ca662c9d667a1099, type: 3}
+    - target: {fileID: 4128425584884297754, guid: d545d2b597e185c469f719de3db90f33, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: f291f7ee6c5f1764d8aa9f044639d312, type: 2}
+      objectReference: {fileID: 9100000, guid: 7bd141871addf5340891920c362c6559, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
