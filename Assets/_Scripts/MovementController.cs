@@ -12,9 +12,6 @@ public class MovementController : MonoBehaviour
     float SafetyDistance=0.5f;
     // Start is called before the first frame update
 
-    [SerializeField]
-    private int playerIndex = 0;
-
     #region AnimationParamNames
     const string SPEED = "Speed";
     const string ATTACK_HIGH_QUICK = "AttackHighQuick";
@@ -33,11 +30,6 @@ public class MovementController : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _id = _playercount++;
-    }
-
-    public int GetPlayerIndex()
-    {
-        return playerIndex;
     }
 
     public void SetOtherPlayer(Transform other)
