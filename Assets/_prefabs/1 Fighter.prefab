@@ -30,14 +30,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93448280697202341}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5128395679835075603}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &192862648031582169
 Animator:
@@ -49,7 +49,7 @@ Animator:
   m_GameObject: {fileID: 93448280697202341}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 7123c85a706360d4780206fe201ed262, type: 3}
-  m_Controller: {fileID: 9100000, guid: fefbc99daea72d14099a2f28384b5804, type: 2}
+  m_Controller: {fileID: 9100000, guid: f291f7ee6c5f1764d8aa9f044639d312, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -86,8 +86,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartPositions:
-  - {x: -1, y: 1, z: 0}
+  - {x: 4, y: 1, z: -4}
+  - {x: -4, y: 1, z: -4}
   StartRotations:
+  - {x: 0, y: -90, z: 0}
   - {x: 0, y: 90, z: 0}
 --- !u!114 &1273621591324106787
 MonoBehaviour:
@@ -298,7 +300,8 @@ PrefabInstance:
       value: base_model
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 153163915230628614, guid: d704d3df7f8bfe04c8654df97b152fe9, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d704d3df7f8bfe04c8654df97b152fe9, type: 3}

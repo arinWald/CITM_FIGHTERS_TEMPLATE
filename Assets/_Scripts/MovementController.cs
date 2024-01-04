@@ -53,6 +53,28 @@ public class MovementController : MonoBehaviour
 
     }
 
+    /*
+     if (CanMove(speed))
+        {
+            _animator.SetFloat(SPEED, _id == 1 ? -speed : speed);
+
+            if (speed > 0)
+                _animator.SetInteger("Controller", _id == 1 ? 2 : 1);
+            else if (speed < 0)
+                _animator.SetInteger("Controller", _id == 1 ? 1 : 2);
+            else if (speed == 0)
+                _animator.SetInteger("Controller", 0);
+
+        }
+
+        else
+        {
+            _animator.SetFloat(SPEED, 0);
+
+            _animator.SetInteger("Controller", 0);
+        }
+     */
+
     public void LateUpdate()
     {
         var pos = transform.position;
