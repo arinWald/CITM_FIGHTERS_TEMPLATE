@@ -25,7 +25,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8472998948567136586
 Transform:
   m_ObjectHideFlags: 0
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0238b7fd6212d2448340f30bf2329d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveLimits: {x: -5, y: 5}
+  MoveLimits: {x: -4, y: 5}
   SafetyDistance: 1
 --- !u!82 &4079267453186771456
 AudioSource:
