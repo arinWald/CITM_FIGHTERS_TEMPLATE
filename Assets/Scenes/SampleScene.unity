@@ -937,6 +937,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 70.857, y: -187.729, z: -191.083}
+--- !u!1 &733328788 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2447081022457910886, guid: d545d2b597e185c469f719de3db90f33, type: 3}
+  m_PrefabInstance: {fileID: 1645030037}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &758562642
 GameObject:
   m_ObjectHideFlags: 0
@@ -947,6 +952,7 @@ GameObject:
   m_Component:
   - component: {fileID: 758562644}
   - component: {fileID: 758562643}
+  - component: {fileID: 758562645}
   m_Layer: 0
   m_Name: PlayerManager
   m_TagString: Untagged
@@ -988,7 +994,7 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
-  m_PlayerPrefab: {fileID: 2447081022457910886, guid: d545d2b597e185c469f719de3db90f33, type: 3}
+  m_PlayerPrefab: {fileID: 1401080279}
   m_SplitScreen: 0
   m_MaintainAspectRatioInSplitScreen: 1
   m_FixedNumberOfSplitScreens: -1
@@ -1013,6 +1019,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &758562645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758562642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 130bc425a9757b24a9f05b667e5597a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newPlayerPrefab: {fileID: 733328788}
+  inputManager: {fileID: 758562643}
 --- !u!1 &851626626
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,6 +1882,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4306986459650346, guid: eb1c729014aa1dd4c876eb228369d380, type: 3}
   m_PrefabInstance: {fileID: 1270187944}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1401080279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 93448280697202341, guid: 0ac60bcd46bce6e4bb22aaa3b725210d, type: 3}
+  m_PrefabInstance: {fileID: 1448187613}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1405284449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1947,10 +1972,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1 Fighter
       objectReference: {fileID: 0}
-    - target: {fileID: 93448280697202341, guid: 0ac60bcd46bce6e4bb22aaa3b725210d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8472998948567136586, guid: 0ac60bcd46bce6e4bb22aaa3b725210d, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -2011,10 +2032,6 @@ PrefabInstance:
     - target: {fileID: 2447081022457910886, guid: d545d2b597e185c469f719de3db90f33, type: 3}
       propertyPath: m_Name
       value: 2 Fighter
-      objectReference: {fileID: 0}
-    - target: {fileID: 2447081022457910886, guid: d545d2b597e185c469f719de3db90f33, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2573982593605303172, guid: d545d2b597e185c469f719de3db90f33, type: 3}
       propertyPath: m_RootOrder
