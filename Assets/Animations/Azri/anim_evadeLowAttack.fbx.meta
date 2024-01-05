@@ -33,14 +33,14 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: EvadeLowAttack
       takeName: Take 001
       internalID: 1827226128182048838
       firstFrame: 0
       lastFrame: 45
       wrapMode: 0
       orientationOffsetY: 0
-      level: 0
+      level: -85
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
