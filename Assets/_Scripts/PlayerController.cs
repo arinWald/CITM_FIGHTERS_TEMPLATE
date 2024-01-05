@@ -10,8 +10,8 @@ public class PlayerController : MonoBehaviour
     GameObject ImpactPrefab;
  
     // Start is called before the first frame update
-    private bool _isAttacking;
-    private bool _isBlocking;
+    public bool _isAttacking;
+    public bool _isBlocking;
 
     private UpDown UpOrDown;
 

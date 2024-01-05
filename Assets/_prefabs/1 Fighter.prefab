@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8472998948567136586}
   - component: {fileID: 192862648031582169}
+  - component: {fileID: 3725782373145252453}
   - component: {fileID: 1028778475177213693}
   - component: {fileID: 940058800461029350}
   - component: {fileID: 1273621591324106787}
@@ -18,7 +19,7 @@ GameObject:
   - component: {fileID: 4079267453186771456}
   m_Layer: 0
   m_Name: 1 Fighter
-  m_TagString: Player
+  m_TagString: Azri
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,7 +49,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93448280697202341}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 7123c85a706360d4780206fe201ed262, type: 3}
+  m_Avatar: {fileID: 9000000, guid: d704d3df7f8bfe04c8654df97b152fe9, type: 3}
   m_Controller: {fileID: 9100000, guid: f291f7ee6c5f1764d8aa9f044639d312, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
@@ -60,6 +61,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3725782373145252453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93448280697202341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13b3795e20df3d43af4d4a762a8695d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1028778475177213693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,6 +86,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ImpactPrefab: {fileID: 100004, guid: a89abc0d2591545288f4c041059ae633, type: 3}
+  _isAttacking: 0
+  _isBlocking: 0
 --- !u!114 &940058800461029350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,8 +101,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartPositions:
-  - {x: 4, y: 1, z: -4}
-  - {x: -4, y: 1, z: -4}
+  - {x: 2, y: 1, z: -4}
+  - {x: -2, y: 1, z: -4}
   StartRotations:
   - {x: 0, y: -90, z: 0}
   - {x: 0, y: 90, z: 0}

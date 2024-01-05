@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2573982593605303172}
   - component: {fileID: 4128425584884297754}
+  - component: {fileID: 2429970833396614998}
   - component: {fileID: 2940235629401851955}
   - component: {fileID: 6863941729990078303}
   - component: {fileID: 486359034896169762}
@@ -18,7 +19,7 @@ GameObject:
   - component: {fileID: 4072889620208256970}
   m_Layer: 0
   m_Name: 2 Fighter
-  m_TagString: Untagged
+  m_TagString: Thor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,8 +49,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2447081022457910886}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 7123c85a706360d4780206fe201ed262, type: 3}
-  m_Controller: {fileID: 9100000, guid: fefbc99daea72d14099a2f28384b5804, type: 2}
+  m_Avatar: {fileID: 9000000, guid: 7d866099800aa154ca662c9d667a1099, type: 3}
+  m_Controller: {fileID: 9100000, guid: 7bd141871addf5340891920c362c6559, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -60,6 +61,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2429970833396614998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2447081022457910886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13b3795e20df3d43af4d4a762a8695d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2940235629401851955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,6 +86,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ImpactPrefab: {fileID: 100004, guid: a89abc0d2591545288f4c041059ae633, type: 3}
+  _isAttacking: 0
+  _isBlocking: 0
 --- !u!114 &6863941729990078303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,8 +101,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartPositions:
-  - {x: 4, y: 1, z: -4}
-  - {x: -4, y: 1, z: -4}
+  - {x: 2, y: 1, z: -4}
+  - {x: -2, y: 1, z: -4}
   StartRotations:
   - {x: 0, y: -90, z: 0}
   - {x: 0, y: 90, z: 0}
