@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8472998948567136586}
+  - component: {fileID: 7156175530785306638}
   - component: {fileID: 192862648031582169}
   - component: {fileID: 3725782373145252453}
   - component: {fileID: 1028778475177213693}
@@ -24,7 +25,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8472998948567136586
 Transform:
   m_ObjectHideFlags: 0
@@ -41,6 +42,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7156175530785306638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93448280697202341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc778c9d924c414bbded2067df40f84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HighQuick: {fileID: 8300000, guid: dddf621506df42242a9fd2297520fdcf, type: 3}
+  HighSlow: {fileID: 8300000, guid: 9ba47ee7f47f66b4fa253a0339de2ab2, type: 3}
+  LowQuick: {fileID: 8300000, guid: 086e804d9a2c68d43ab0e37712c07693, type: 3}
+  LowSlow: {fileID: 8300000, guid: 93610f1351ca6d54aa4a575e49f7b8f3, type: 3}
+  BlockHigh: {fileID: 8300000, guid: 9af603cfe32dea94fb3bbb2795677063, type: 3}
+  BlockLow: {fileID: 8300000, guid: 66944b4e4b34a0f4e8985f0727a624df, type: 3}
+  Die: {fileID: 8300000, guid: c798b17e7f9ac5145bb98e46d9ea96c1, type: 3}
+  Walk: {fileID: 8300000, guid: c9b043cc6c15e2a418a8f5a305bc5466, type: 3}
+  animator: {fileID: 192862648031582169}
 --- !u!95 &192862648031582169
 Animator:
   serializedVersion: 5
