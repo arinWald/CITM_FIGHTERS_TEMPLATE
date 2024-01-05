@@ -15,7 +15,16 @@ public class TriggerSound : MonoBehaviour
     private AudioSource audioSource;
 
     public Animator animator;
-    private bool playedSound;
+
+    // Boolean variables for each animation state
+    private bool isHighQuickPlayed;
+    private bool isHighSlowPlayed;
+    private bool isLowQuickPlayed;
+    private bool isLowSlowPlayed;
+    private bool isBlockHighPlayed;
+    private bool isBlockLowPlayed;
+    private bool isDiePlayed;
+    private bool isWalkPlayed;
 
     private void Start()
     {
@@ -25,94 +34,95 @@ public class TriggerSound : MonoBehaviour
     private void Update()
     {
         AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
-        if (state.IsName("HighQuick") && !playedSound)
+
+        // Check and play sound for HighQuick animation
+        if (state.IsName("HighQuick") && !isHighQuickPlayed)
         {
             audioSource.PlayOneShot(HighQuick);
-            playedSound = true;
+            isHighQuickPlayed = true;
         }
         else if (!state.IsName("HighQuick"))
         {
-            playedSound = false;
+            isHighQuickPlayed = false;
         }
-        //-------------------------------------------------------------------------------------
-        if (state.IsName("HighSlow") && !playedSound)
+
+        // Check and play sound for HighSlow animation
+        if (state.IsName("HighSlow") && !isHighSlowPlayed)
         {
             audioSource.PlayOneShot(HighSlow);
-            playedSound = true;
+            isHighSlowPlayed = true;
         }
         else if (!state.IsName("HighSlow"))
         {
-            playedSound = false;
+            isHighSlowPlayed = false;
         }
-        //-------------------------------------------------------------------------------------
-        if (state.IsName("LowQuick") && !playedSound)
+
+
+        // Check and play sound for LowQuick animation
+        if (state.IsName("LowQuick") && !isLowQuickPlayed)
         {
             audioSource.PlayOneShot(LowQuick);
-            playedSound = true;
+            isLowQuickPlayed = true;
         }
         else if (!state.IsName("LowQuick"))
         {
-            playedSound = false;
+            isLowQuickPlayed = false;
         }
-        //-------------------------------------------------------------------------------------
-        if (state.IsName("LowSlow") && !playedSound)
+
+        // Check and play sound for LowSlow animation
+        if (state.IsName("LowSlow") && !isLowSlowPlayed)
         {
             audioSource.PlayOneShot(LowSlow);
-            playedSound = true;
+            isLowSlowPlayed = true;
         }
         else if (!state.IsName("LowSlow"))
         {
-            playedSound = false;
+            isLowSlowPlayed = false;
         }
-        //-------------------------------------------------------------------------------------
-        if (state.IsName("BlockHigh") && !playedSound)
+
+        // Check and play sound for BlockHigh animation
+        if (state.IsName("BlockHigh") && !isBlockHighPlayed)
         {
             audioSource.PlayOneShot(BlockHigh);
-            playedSound = true;
+            isBlockHighPlayed = true;
         }
         else if (!state.IsName("BlockHigh"))
         {
-            playedSound = false;
+            isBlockHighPlayed = false;
         }
-        //-------------------------------------------------------------------------------------
-        if (state.IsName("BlockLow")  && !playedSound)
+
+        // Check and play sound for BlockLow animation
+        if (state.IsName("BlockLow") && !isBlockLowPlayed)
         {
             audioSource.PlayOneShot(BlockLow);
-            playedSound = true;
+            isBlockLowPlayed = true;
         }
         else if (!state.IsName("BlockLow"))
         {
-            playedSound = false;
+            isBlockLowPlayed = false;
         }
-        //-------------------------------------------------------------------------------------
-        if (state.IsName("Die") && !playedSound)
+
+
+        // Check and play sound for Die animation
+        if (state.IsName("Die") && !isDiePlayed)
         {
             audioSource.PlayOneShot(Die);
-            playedSound = true;
+            isDiePlayed = true;
         }
         else if (!state.IsName("Die"))
         {
-            playedSound = false;
+            isDiePlayed = false;
         }
-        //-------------------------------------------------------------------------------------
-        if (state.IsName("WalkFront") && !playedSound)
+
+        // Check and play sound for Walk animation
+        if ((state.IsName("WalkFront") || state.IsName("WalkBackwards")) && !isWalkPlayed)
         {
             audioSource.PlayOneShot(Walk);
-            playedSound = true;
+            isWalkPlayed = true;
         }
-        else if (!state.IsName("WalkFront"))
+        else if (!(state.IsName("WalkFront") || state.IsName("WalkBackwards")))
         {
-            playedSound = false;
-        }
-        if (state.IsName("WalkBackwards") && !playedSound)
-        {
-            audioSource.PlayOneShot(Walk);
-            playedSound = true;
-        }
-        else if (!state.IsName("WalkBackwards"))
-        {
-            playedSound = false;
+            isWalkPlayed = false;
         }
     }
 }
-

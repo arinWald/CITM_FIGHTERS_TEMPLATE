@@ -29,7 +29,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LowQuickAttack
+  m_Name: LowQuick
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -170,7 +170,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DodgeHighAttack
+  m_Name: BlockHigh
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -310,7 +310,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LowSlowAttack
+  m_Name: LowSlow
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -783,7 +783,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SlowAttack
+  m_Name: HighSlow
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -898,7 +898,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EvadeLowAttack
+  m_Name: BlockLow
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -953,7 +953,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: QuickAtack
+  m_Name: HighQuick
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
