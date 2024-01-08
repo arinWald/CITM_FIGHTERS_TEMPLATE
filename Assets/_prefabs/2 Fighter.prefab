@@ -40,7 +40,7 @@ Transform:
   m_Children:
   - {fileID: 4254808943858920091}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &392133915762183957
 MonoBehaviour:
@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed17639b42514324ebf77aa8b3f7428a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerTransform: {fileID: 2573982593605303172}
 --- !u!114 &5814965858210639423
 MonoBehaviour:
   m_ObjectHideFlags: 0
