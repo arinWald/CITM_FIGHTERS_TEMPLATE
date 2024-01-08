@@ -20,17 +20,6 @@ public class PlayerInput : MonoBehaviour
 
     private void Update()
     {
-        // Move horizontally with the _speed variable
-        float horizontalMovement = _speed * Time.deltaTime * 3;
-
-        //if(GameObject.FindGameObjectWithTag("Azri") == this.gameObject)
-        //{
-        //    horizontalMovement = -horizontalMovement;
-        //}
-
-        Vector3 horizontalVelocity = new Vector3(horizontalMovement, 0f, 0f);
-        playerTransform.Translate(horizontalVelocity);
-
         // Call TryMove method for other movements
         _moveController.TryMove(_speed);
     }

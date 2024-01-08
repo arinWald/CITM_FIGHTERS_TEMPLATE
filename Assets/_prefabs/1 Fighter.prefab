@@ -186,6 +186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveLimits: {x: -4, y: 5}
   SafetyDistance: 1
+  playerTransform: {fileID: 8472998948567136586}
 --- !u!82 &4079267453186771456
 AudioSource:
   m_ObjectHideFlags: 0

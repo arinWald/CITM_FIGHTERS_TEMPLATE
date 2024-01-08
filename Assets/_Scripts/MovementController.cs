@@ -23,8 +23,10 @@ public class MovementController : MonoBehaviour
     private Animator _animator;
     private Transform _otherPlayer;
 
+    public Transform playerTransform;
+
     public static int _playercount;
-    int _id;
+    public int _id;
 
     private void Awake()
     {
@@ -40,15 +42,23 @@ public class MovementController : MonoBehaviour
     
     public void TryMove(float speed)
     {
-        
 
         if (CanMove(speed))
-        {       
+        {
             _animator.SetFloat(SPEED, _id == 1 ? -speed : speed);
+            if(_id == 0)
+            {
+                speed = -speed;
+            }
         }
-            
         else
             _animator.SetFloat(SPEED, 0);
+
+        // Move horizontally with the _speed variable
+        float horizontalMovement = speed * Time.deltaTime * 3;
+
+        Vector3 horizontalVelocity = new Vector3(horizontalMovement, 0f, 0f);
+        playerTransform.Translate(horizontalVelocity);
 
 
     }
